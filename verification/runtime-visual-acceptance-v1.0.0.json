@@ -1,0 +1,42 @@
+{
+  "schema": "mao-cross-channel-final-complete-runtime-visual-acceptance/1",
+  "status": "passed",
+  "recorded_at": "2026-08-27T17:25:52+09:00",
+  "scope": "bounded opening-scene visual acceptance on the staged private game copy",
+  "bindings": {
+    "english_archive_sha256": "863671282ce37565f717492e2fb7a44aeffc3ff5b767c070ff12761292c94fdb",
+    "frozen_manuscript_sha256": "49183bbdf702494bb4c42f301b7cbf3647d9e259e05e7b920635fb44976131d0",
+    "game_executable_sha256": "d9b6405bceb2f12f57d24bb3e32825d8beec6903f499dc98b48cfacb9c17853e",
+    "wine_binary_sha256": "1b992a3e0bc5f2a058a24f923832aaa6e464d44766fb0ad13054797e02060d10"
+  },
+  "evidence": [
+    {
+      "name": "Screenshot 2026-08-27 at 5.21.55 PM.png",
+      "sha256": "2afd242b4ef3b09feeeee7f5b1f728ee5e0e6dd1c97d9340a4ea73fe68fc82f8",
+      "observation": "four-line English narrative page rendered legibly with no clipping or overflow"
+    },
+    {
+      "name": "Screenshot 2026-08-27 at 5.22.07 PM.png",
+      "sha256": "ddd59aa59abdbfc9fa3bb193121fd2d3344fbd91e408ff3b20676d2c0edf89e5",
+      "observation": "three-line English narrative page rendered legibly with no clipping or overflow"
+    }
+  ],
+  "checks": {
+    "patched_archive_verified_before_launch": true,
+    "game_process_launched": true,
+    "graphics_initialized": true,
+    "english_text_visible": true,
+    "runtime_pagination_visible": true,
+    "representative_pages_legible": true,
+    "no_visible_text_clipping": true,
+    "no_visible_text_overflow": true,
+    "staged_copy_only": true,
+    "user_game_untouched": true,
+    "staged_copy_restored_to_japanese_after_test": true
+  },
+  "limits": {
+    "full_playthrough_performed": false,
+    "choice_and_backlog_visual_sampling_performed": false
+  },
+  "release_decision": "accepted by project lead for v1.0.0 publication"
+}
