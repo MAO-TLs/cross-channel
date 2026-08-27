@@ -148,7 +148,7 @@
     $("nextChapter").disabled = position === index.sections.length - 1;
   }
 
-  async function selectChapter() {
+  async function selectChapter({ scroll = true } = {}) {
     const selected = $("monographChapter").value;
     $("monographSummary").textContent = "Loading document…";
     const metas = selected === "all" ? index.sections : index.sections.filter((item) => item.id === selected);
@@ -156,7 +156,7 @@
     blocks = data.flatMap((section) => section.blocks);
     updateChapterButtons();
     render();
-    $("monographResults").scrollIntoView({ block: "start" });
+    if (scroll) $("monographResults").scrollIntoView({ block: "start" });
   }
 
   async function initialize() {
@@ -167,7 +167,7 @@
         option.value = section.id;
         $("monographChapter").append(option);
       });
-      await selectChapter();
+      await selectChapter({ scroll: false });
     } catch (error) {
       $("monographSummary").textContent = error.message;
       $("monographResults").replaceChildren(el("p", "audit-empty", "The monograph could not be loaded."));
