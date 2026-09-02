@@ -16,21 +16,27 @@
     return response.json();
   }
 
+  function exampleHref(example) {
+    return `../script/?script=${encodeURIComponent(example.scriptId)}&compare=ghs&errors=ghs#${encodeURIComponent(example.ref)}`;
+  }
+
   function buildExample(example) {
-    const item = el("article", "audit-example audit-example-finding");
+    const link = el("a", "audit-example audit-example-finding");
+    link.href = exampleHref(example);
     const heading = el("div", "audit-example-heading");
     const labels = el("div");
     labels.append(el("span", "", "Confirmed error"), el("small", "", example.section));
     heading.append(labels, el("code", "", example.findingId));
     const japanese = el("p", "", example.japanese);
     japanese.lang = "ja";
-    item.append(
+    link.append(
       heading,
       japanese,
       el("p", "", example.ghs),
       el("small", "", example.note),
+      el("b", "", "Open in script context →"),
     );
-    return item;
+    return link;
   }
 
   function buildDossier(dossier) {
