@@ -108,6 +108,21 @@
     node.lang = "en";
     const spans = (item.highlights || [])
       .filter((span) => Number.isInteger(span.start) && Number.isInteger(span.end) && span.start >= 0 && span.end > span.start && span.end <= text.length)
+      .map((span) => {
+        if (!span.text || text.slice(span.start, span.end) === span.text) return span;
+        const candidates = [];
+        let cursor = text.indexOf(span.text);
+        while (cursor >= 0) {
+          candidates.push(cursor);
+          cursor = text.indexOf(span.text, cursor + 1);
+        }
+        if (!candidates.length) return null;
+        const start = candidates.reduce((best, candidate) =>
+          Math.abs(candidate - span.start) < Math.abs(best - span.start) ? candidate : best
+        );
+        return { ...span, start, end: start + span.text.length };
+      })
+      .filter(Boolean)
       .sort((left, right) => left.start - right.start || right.end - left.end);
     let cursor = 0;
     spans.forEach((span, spanIndex) => {
