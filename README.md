@@ -1,4 +1,4 @@
-# CROSS†CHANNEL script and audits
+# CROSS†CHANNEL Script v1.1 and audits
 
 MAO Translations publishes the complete *CROSS†CHANNEL ～FINAL COMPLETE～*
 Japanese and MAO English script alongside two independent research editions:
