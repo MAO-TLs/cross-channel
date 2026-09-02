@@ -35,7 +35,6 @@
   }
 
   function corpusHitMatches(item, query) {
-    if (state.showShaft && !(item.comparator || []).length) return false;
     return matches(item.row, query);
   }
 
