@@ -338,12 +338,10 @@ footer { padding-block: 48px; color: rgba(255,255,255,.6); background: #071729; 
 @media (max-width:640px) {
   .shell, .reader-page .shell { width: min(100% - 32px,1180px); }
   .hero { min-height: 720px; }
-  .nav { min-height: 74px; }
+  .nav, .reader-page .nav { min-height: 74px; flex-direction: column; align-items: flex-start; gap: 8px; padding-block: 16px; }
   .wordmark { font-size: 11px; letter-spacing: .09em; }
-  .nav-links { gap: 16px; font-size: 12px; }
-  .nav-links a:last-child { display: none; }
-  .nav-links a:nth-child(4) { display: none; }
-  .nav-links a[aria-current="page"] { display: block; }
+  .nav-links, .reader-page .nav-links { flex-wrap: wrap; gap: 0 16px; font-size: 12px; width: 100%; }
+  .nav-links a, .reader-page .nav-links a, .reader-page .nav-links a:last-child { display: block; min-height: 44px; padding-block: 12px; }
   .hero-grid { min-height: 620px; padding-block: 42px 70px; }
   .hero h1 { font-size: clamp(64px,20vw,108px); }
   .hero-actions { flex-direction: column; }
@@ -372,9 +370,6 @@ footer { padding-block: 48px; color: rgba(255,255,255,.6); background: #071729; 
   .monograph-note { position: fixed; right: 16px; bottom: 16px; left: 16px; width: auto; max-height: 60svh; overflow: auto; transform: none; }
 }
 @media (max-width:480px) {
-  .wordmark, .reader-page .wordmark { max-width: 72px; line-height: 1.15; }
-  .nav-links, .reader-page .nav-links { gap: 11px; font-size: 11px; }
-  .nav-links a { display: none; }
-  .nav-links a:first-child, .nav-links a[aria-current="page"] { display: block; }
+  .wordmark, .reader-page .wordmark { max-width: none; line-height: 1.15; }
 }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior: auto; } .button { transition: none; } }
