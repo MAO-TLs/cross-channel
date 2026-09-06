@@ -10,7 +10,7 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/mao-publication-template.css">
   <link rel="stylesheet" href="assets/mao-reader-template.css">
-  <link rel="stylesheet" href="assets/site.css?v=20260827-11">
+  <link rel="stylesheet" href="assets/site.css?v=20260907-v110">
 </head>
 <body>
   <main>
@@ -36,6 +36,7 @@
             <a class="button button-secondary" href="script/">Read the script</a>
             <a class="button button-secondary" href="audit-ghs/">Read the GHS audit <span aria-hidden="true">→</span></a>
           </div>
+          <p class="download-meta">11.7 MB · <a href="https://github.com/MAO-TLs/cross-channel/releases/tag/v1.1.0">Release notes</a> · Version 1.1.0 · Windows + Wine · Japanese FINAL COMPLETE required</p>
         </div>
         <div aria-hidden="true"></div>
       </div>
@@ -44,23 +45,10 @@
     <section class="release-strip" aria-label="Publication information">
       <div class="shell release-grid">
         <div><span class="release-label">Version</span><strong>v1.1.0</strong></div>
-        <div><span class="release-label">Script coverage</span><strong>Full game</strong></div>
+        <div><span class="release-label">Script coverage</span><strong>Main game + FINAL COMPLETE-exclusive scenarios</strong></div>
         <div><span class="release-label">Lines</span><strong>50,942</strong></div>
-        <div><span class="release-label">Status</span><strong>English patch released</strong></div>
+        <div><span class="release-label">Status</span><strong class="release-status">Complete</strong></div>
       </div>
-    </section>
-
-    <section class="section shell" id="install">
-      <div class="section-heading"><p class="eyebrow">Installation</p><h2>How to install the patch</h2>
-        <p>Requires an unmodified Japanese <i>CROSS†CHANNEL ～FINAL COMPLETE～</i> 1.0 installation and Python 3. The installer checks the exact supported game files before making changes.</p>
-      </div>
-      <ol>
-        <li>Close the game and extract the patch ZIP.</li>
-        <li>Open a terminal in the extracted patch folder. On Windows, run <code>py -3 install_patch.py install "C:\Games\CROSS CHANNEL"</code>, replacing the quoted path with your game folder. On macOS or Linux, use <code>python3</code> instead of <code>py -3</code>.</li>
-        <li>Launch the game normally. The installer keeps original-file backups and does not replace saves.</li>
-      </ol>
-      <p>To uninstall, run the same command with <code>restore</code> instead of <code>install</code>. Keep the backup folder for restoration. See the included README for compatibility checks and detailed instructions.</p>
-      <p><a href="https://github.com/MAO-TLs/cross-channel/releases/tag/v1.1.0">Release notes and checksums</a> · <a href="https://github.com/MAO-TLs/cross-channel/releases/download/v1.1.0/CROSS-CHANNEL-English-Script-v1.1.jsonl">Download English script (JSONL)</a></p>
     </section>
 
     <section class="feature-section">
@@ -87,6 +75,22 @@
             <p>The complete monograph in its original chapter and paragraph structure, with 847 recorded findings and 858 exact red spans.</p>
           </a>
         </div>
+      </div>
+    </section>
+
+    <section class="install-section" id="install">
+      <div class="section shell">
+        <div class="install-heading">
+          <div class="section-heading"><p class="eyebrow">Installation</p><h2>How to install the patch</h2></div>
+          <p class="install-requirement">Requires a legally obtained, unmodified Japanese <i>CROSS†CHANNEL ～FINAL COMPLETE～</i> 1.0 installation and Python 3. The installer checks compatibility before changing any game files.</p>
+        </div>
+        <ol class="install-steps">
+          <li><span>01</span><div><h3>Close the game and extract the patch</h3><p>Download and extract the complete patch ZIP. Keep <code>install_patch.py</code>, <code>manifest.json</code>, and the <code>patches</code> folder together.</p></div></li>
+          <li><span>02</span><div><h3>Install the English patch</h3><p>Open a terminal in the extracted patch folder. On Windows, run <code>py -3 install_patch.py install "C:\Games\CROSS CHANNEL"</code>, replacing the quoted path with your game folder. On macOS or Linux, use <code>python3</code> instead of <code>py -3</code>.</p></div></li>
+          <li><span>03</span><div><h3>Launch the game</h3><p>Launch <code>cc.exe</code> normally, or through Wine on macOS or Linux. Original-file backups are retained, and the installer does not replace your saves.</p></div></li>
+          <li><span>04</span><div><h3>Restore the originals if needed</h3><p>Run the installation command with <code>restore</code> instead of <code>install</code>. Keep the original-file backup folder for restoration. The included README explains compatibility checks and recovery.</p></div></li>
+        </ol>
+        <aside class="install-warning"><strong>Release files</strong><p><a href="https://github.com/MAO-TLs/cross-channel/releases/tag/v1.1.0">Release notes and checksums</a> · <a href="https://github.com/MAO-TLs/cross-channel/releases/download/v1.1.0/CROSS-CHANNEL-English-Script-v1.1.jsonl">English script (JSONL)</a></p></aside>
       </div>
     </section>
 

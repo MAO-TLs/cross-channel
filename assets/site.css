@@ -373,3 +373,24 @@ footer { padding-block: 48px; color: rgba(255,255,255,.6); background: #071729; 
   .wordmark, .reader-page .wordmark { max-width: none; line-height: 1.15; }
 }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior: auto; } .button { transition: none; } }
+
+/* Release installation: shared WA2 numbered-row treatment. */
+#install { border-top: 1px solid var(--line); background: #fff; }
+#install > .section { padding-top: 80px; }
+#install .install-heading { display: grid; grid-template-columns: 1.2fr .8fr; gap: 90px; align-items: end; margin-top: 0; padding: 0; border: 0; }
+#install .install-requirement { max-width: 48ch; margin: 0; color: var(--ink-soft); font-family: var(--serif); font-size: 17px; line-height: 1.65; }
+#install .install-steps { display: grid; grid-template-columns: 1fr; margin: 64px 0 0; padding: 0; border-top: 1px solid var(--line); border-bottom: 0; list-style: none; }
+#install .install-steps li { display: grid; grid-template-columns: 70px minmax(0,1fr); gap: 26px; min-height: 0; padding: 30px 0; border: 0; border-bottom: 1px solid var(--line); }
+#install .install-steps li::before { content: none; }
+#install .install-steps li > span { padding-top: 4px; color: var(--ice-ink); font-family: var(--mono); font-size: 12px; }
+#install .install-steps h3 { margin: 0 0 9px; font-family: var(--serif); font-size: 24px; font-weight: 400; }
+#install .install-steps p, #install .install-warning p { margin: 0; color: var(--ink-soft); font-size: 14px; line-height: 1.7; }
+#install .install-steps p { max-width: 76ch; }
+#install code { overflow-wrap: anywhere; }
+#install .install-warning { display: grid; grid-template-columns: .7fr 1.3fr; gap: 28px; margin-top: 34px; padding: 26px 30px; border-left: 4px solid var(--blue); background: var(--paper); }
+#install .install-warning strong { font-family: var(--serif); font-size: 18px; font-weight: 400; }
+@media (max-width: 900px) { #install .install-heading { grid-template-columns: 1fr; gap: 32px; } }
+@media (max-width: 600px) { #install .install-steps li { grid-template-columns: 44px minmax(0,1fr); gap: 12px; } #install .install-warning { grid-template-columns: 1fr; gap: 10px; } }
+
+.download-meta { max-width: 76ch; margin: 18px 0 0; color: #a9bbc7; font-size: 14px; line-height: 1.65; }
+.download-meta a { color: inherit; text-decoration: underline; }
