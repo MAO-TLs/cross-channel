@@ -87,7 +87,9 @@
       en: raw.slice(removed),
       highlights: (item.highlights || []).flatMap((span) => {
         if (!Number.isInteger(span.start) || !Number.isInteger(span.end) || span.end <= removed) return [];
-        return [{ ...span, start: Math.max(0, span.start - removed), end: span.end - removed }];
+        const start = Math.max(removed, span.start);
+        return [{ ...span, start: start - removed, end: span.end - removed,
+          text: span.text ? span.text.slice(start - span.start) : span.text }];
       }),
     };
   }
@@ -141,7 +143,7 @@
       node.append(trigger);
       cursor = span.end;
     });
-    if (cursor < text.length) node.append(document.createTextNode(text.slice(cursor)));
+    if (spans.length && cursor < text.length) node.append(document.createTextNode(text.slice(cursor)));
     if (!spans.length) {
       const trigger = el("button", "todokanai-error-trigger", text);
       trigger.type = "button";
