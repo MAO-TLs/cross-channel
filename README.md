@@ -1,4 +1,4 @@
-# CROSS†CHANNEL Script v1.1 and audits
+# CROSS†CHANNEL English translation v1.1.0
 
 MAO Translations publishes the complete *CROSS†CHANNEL ～FINAL COMPLETE～*
 Japanese and MAO English script alongside two independent research editions:
@@ -18,6 +18,10 @@ unadjudicated, and 4,620 potential bindings withheld rather than forced.
 The annotated edition preserves the complete approximately 160,000-word
 monograph in its original chapter and paragraph structure. Its 6,978 textual
 blocks contain 847 recorded findings.
+
+## English patch
+
+Download the [v1.1 release](https://github.com/MAO-TLs/cross-channel/releases/tag/v1.1.0) and follow the included README. Requires an unmodified Final Complete 1.0 installation and Python 3. The patch includes proportional Source Serif typography, word wrapping, translated menus, and a reversible installer. The downloadable manuscript matches the online script.
 
 ## Credits
 

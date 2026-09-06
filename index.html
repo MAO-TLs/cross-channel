@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b2440">
-  <meta name="description" content="Read the complete CROSS†CHANNEL Japanese and MAO English script, the source audit of George Henry Shaft's translation, and the annotated edition of On Cross Channel.">
-  <title>CROSS†CHANNEL Script and Audits | MAO</title>
+  <meta name="description" content="Download the CROSS†CHANNEL English patch and read the complete Japanese and MAO English script, the source audit of George Henry Shaft's translation, and the annotated edition of On Cross Channel.">
+  <title>CROSS†CHANNEL English Translation | MAO Translations</title>
   <link rel="canonical" href="https://mao-tls.github.io/cross-channel/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/mao-publication-template.css">
@@ -28,11 +28,12 @@
       </nav>
       <div class="hero-grid shell">
         <div class="hero-copy">
-          <p class="eyebrow">MAO English script + independent audits</p>
+          <p class="eyebrow">English translation · v1.1.0</p>
           <h1 aria-label="CROSS†CHANNEL"><span>CROSS†</span><span>CHANNEL</span></h1>
-          <p class="dek">The complete Japanese and MAO English script, a source audit of George Henry Shaft’s translation, and a fully annotated edition of his approximately 160,000-word <i>On Cross Channel</i> monograph.</p>
+          <p class="dek">A complete English patch for <i>CROSS†CHANNEL ～FINAL COMPLETE～</i>, the Japanese and MAO English script, a source audit of George Henry Shaft’s translation, and a fully annotated edition of his approximately 160,000-word <i>On Cross Channel</i> monograph.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="script/">Read the script <span aria-hidden="true">→</span></a>
+            <a class="button button-primary" href="https://github.com/MAO-TLs/cross-channel/releases/download/v1.1.0/CROSS-CHANNEL-English-Patch-v1.1.zip">Download English patch <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="script/">Read the script</a>
             <a class="button button-secondary" href="audit-ghs/">Read the GHS audit <span aria-hidden="true">→</span></a>
           </div>
         </div>
@@ -42,11 +43,24 @@
 
     <section class="release-strip" aria-label="Publication information">
       <div class="shell release-grid">
-        <div><span class="release-label">Version</span><strong>v1.1</strong></div>
+        <div><span class="release-label">Version</span><strong>v1.1.0</strong></div>
         <div><span class="release-label">Script coverage</span><strong>Full game</strong></div>
         <div><span class="release-label">Lines</span><strong>50,942</strong></div>
-        <div><span class="release-label">Status</span><strong>Patch in development</strong></div>
+        <div><span class="release-label">Status</span><strong>English patch released</strong></div>
       </div>
+    </section>
+
+    <section class="section shell" id="install">
+      <div class="section-heading"><p class="eyebrow">Installation</p><h2>How to install the patch</h2>
+        <p>Requires an unmodified Japanese <i>CROSS†CHANNEL ～FINAL COMPLETE～</i> 1.0 installation and Python 3. The installer checks the exact supported game files before making changes.</p>
+      </div>
+      <ol>
+        <li>Close the game and extract the patch ZIP.</li>
+        <li>Open a terminal in the extracted patch folder. On Windows, run <code>py -3 install_patch.py install "C:\Games\CROSS CHANNEL"</code>, replacing the quoted path with your game folder. On macOS or Linux, use <code>python3</code> instead of <code>py -3</code>.</li>
+        <li>Launch the game normally. The installer keeps original-file backups and does not replace saves.</li>
+      </ol>
+      <p>To uninstall, run the same command with <code>restore</code> instead of <code>install</code>. Keep the backup folder for restoration. See the included README for compatibility checks and detailed instructions.</p>
+      <p><a href="https://github.com/MAO-TLs/cross-channel/releases/tag/v1.1.0">Release notes and checksums</a> · <a href="https://github.com/MAO-TLs/cross-channel/releases/download/v1.1.0/CROSS-CHANNEL-English-Script-v1.1.jsonl">Download English script (JSONL)</a></p>
     </section>
 
     <section class="feature-section">
@@ -85,6 +99,6 @@
       </dl>
     </section>
   </main>
-  <footer><div class="footer-inner shell"><p>CROSS†CHANNEL · Script v1.1</p><div><span>MAO Translations</span></div></div></footer>
+  <footer><div class="footer-inner shell"><p>CROSS†CHANNEL · English translation v1.1.0</p><div><span>MAO Translations</span></div></div></footer>
 </body>
 </html>
