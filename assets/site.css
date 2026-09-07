@@ -75,7 +75,7 @@ button, input, select { color: inherit; font: inherit; }
 .release-grid > div:last-child { border-right: 1px solid rgba(255,255,255,.12); }
 .release-label { margin-bottom: 9px; color: rgba(255,255,255,.5); font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .release-grid strong { font-family: var(--serif); font-size: 20px; font-weight: 400; }
-.section { padding-block: 112px; }
+.section { padding-block: 56px; }
 .section-heading { max-width: 720px; }
 .section-heading h2 { margin: 0; font-family: var(--serif); font-size: clamp(42px,5.2vw,68px); font-weight: 400; letter-spacing: -.04em; line-height: 1.02; }
 .section-heading > p:last-child { max-width: 650px; margin: 26px 0 0; color: var(--ink-soft); font-family: var(--serif); font-size: 20px; line-height: 1.65; }
@@ -349,7 +349,7 @@ footer { padding-block: 48px; color: rgba(255,255,255,.6); background: #071729; 
   .hero-actions .button { width: 100%; }
   .release-grid { grid-template-columns: 1fr; }
   .release-grid > div { min-height: 96px; }
-  .section { padding-block: 76px; }
+  .section { padding-block: 38px; }
   .section-heading h2 { font-size: 40px; }
   .install-heading { grid-template-columns: 1fr; align-items: start; }
   .install-heading .text-link { width: max-content; }
@@ -377,7 +377,7 @@ footer { padding-block: 48px; color: rgba(255,255,255,.6); background: #071729; 
 
 /* Release installation: shared WA2 numbered-row treatment. */
 #install { border-top: 1px solid var(--line); background: #fff; }
-#install > .section { padding-top: 80px; }
+#install > .section { padding-top: 40px; }
 #install .install-heading { display: grid; grid-template-columns: 1.2fr .8fr; gap: 90px; align-items: end; margin-top: 0; padding: 0; border: 0; }
 #install .install-requirement { max-width: 48ch; margin: 0; color: var(--ink-soft); font-family: var(--serif); font-size: 17px; line-height: 1.65; }
 #install .install-steps { display: grid; grid-template-columns: 1fr; margin: 64px 0 0; padding: 0; border-top: 1px solid var(--line); border-bottom: 0; list-style: none; }
@@ -392,4 +392,3 @@ footer { padding-block: 48px; color: rgba(255,255,255,.6); background: #071729; 
 #install .install-warning strong { font-family: var(--serif); font-size: 18px; font-weight: 400; }
 @media (max-width: 900px) { #install .install-heading { grid-template-columns: 1fr; gap: 32px; } }
 @media (max-width: 600px) { #install .install-steps li { grid-template-columns: 44px minmax(0,1fr); gap: 12px; } #install .install-warning { grid-template-columns: 1fr; gap: 10px; } }
-
