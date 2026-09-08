@@ -21,7 +21,7 @@ blocks contain 847 recorded findings.
 
 ## English patch
 
-Download the [v1.1 release](https://github.com/MAO-TLs/cross-channel/releases/tag/v1.1.0) and follow the included README. Requires an unmodified Final Complete 1.0 installation and Python 3. The September 8 refresh includes proportional sans-serif typography derived from Source Sans 3 Medium, independently centered wrapped lines, the shared-script fix for the reproduced disappearing UI, translated menus, and a reversible installer. The downloadable manuscript is unchanged and matches the online script. If upgrading, restore the original game with your previous patch installer before installing this refresh; keep the old installer and backup until restoration succeeds. Save data is untouched.
+Download the [v1.1 release](https://github.com/MAO-TLs/cross-channel/releases/tag/v1.1.0) and follow the included README. Requires an unmodified Final Complete 1.0 installation and Python 3. The September 9 refresh adds corrected choice panels and click areas, English opacity labels, and two translated image cards and thumbnails. It retains Source Sans 3 Medium proportional typography, independently centered wrapped lines, the earlier disappearing-interface fix, English menus, and a reversible installer. Allow at least 5 GB free disk space and 8 GB RAM. User spot-check accepted; full-game and native Windows verification remain incomplete. The downloadable manuscript is unchanged and matches the online script. If upgrading, restore the original game with your previous patch installer before installing this refresh; keep the old installer and backup until restoration succeeds. Save data is untouched.
 
 ## Credits
 
