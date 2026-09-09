@@ -392,3 +392,9 @@ footer { padding-block: 48px; color: rgba(255,255,255,.6); background: #071729; 
 #install .install-warning strong { font-family: var(--serif); font-size: 18px; font-weight: 400; }
 @media (max-width: 900px) { #install .install-heading { grid-template-columns: 1fr; gap: 32px; } }
 @media (max-width: 600px) { #install .install-steps li { grid-template-columns: 44px minmax(0,1fr); gap: 12px; } #install .install-warning { grid-template-columns: 1fr; gap: 10px; } }
+
+/* Shared title sizing across the four MAO releases. */
+.hero h1 { font-size: clamp(76px, 9.2vw, 138px); }
+@media (max-width: 640px) {
+  .hero h1 { font-size: clamp(44px, 14vw, 82px); }
+}
