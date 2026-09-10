@@ -120,7 +120,6 @@ footer { padding-block: 48px; color: rgba(255,255,255,.6); background: #071729; 
 /* Shared reader/audit extensions. */
 .reader-page, .reader-page * { -webkit-user-select: text; user-select: text; }
 .reader-page { --reader-size: 17px; background: #edf3f8; }
-.reader-page:not(.ghs-audit-page) .reader-intro h1 { line-height: 1.02; }
 .reader-page .reader-controls { grid-template-columns: 1.2fr 1.15fr 1.55fr auto; }
 .reader-page .script-line-target { outline-color: rgba(29,92,131,.62); }
 .reader-page .line-cell p { white-space: pre-line; }
@@ -396,7 +395,6 @@ footer { padding-block: 48px; color: rgba(255,255,255,.6); background: #071729; 
 /* Shared title sizing across the four MAO releases. */
 /* Keep legacy monograph styles from leaking into the shared source audit. */
 .ghs-audit-page { line-height: normal; }
-.ghs-audit-page .reader-intro h1 { line-height: 1.25; }
 .ghs-audit-page .audit-summary-heading h2 { letter-spacing: normal; }
 .ghs-audit-page .audit-summary-heading > p { letter-spacing: normal; }
 .ghs-audit-page .audit-stat-grid { border-top: 0; }
