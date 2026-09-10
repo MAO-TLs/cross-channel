@@ -45,7 +45,7 @@
     const summary = el("summary");
     const title = el("div");
     title.append(
-      el("p", "audit-dossier-count", `${dossier.confirmedCount.toLocaleString()} confirmed findings · ${dossier.exampleCount} cited passages`),
+      el("p", "audit-dossier-count", `${dossier.confirmedCount.toLocaleString()} findings in this category · ${dossier.exampleCount} cited passages`),
       el("h3", "", dossier.title),
     );
     const toggle = el("span", "audit-dossier-toggle");
