@@ -106,7 +106,7 @@ button, input, select { color: inherit; font: inherit; }
 .installation-section { padding-bottom: 48px; }
 .credits-section { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; padding-top: 64px; }
 .credits { margin: 0; border-top: 1px solid var(--line); }
-.credits > div { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+.credits > div { display: grid; align-items: center; grid-template-columns: 1fr 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
 .credits dt { color: var(--ink-soft); font-size: 12px; font-weight: 700; text-transform: uppercase; }
 .credits dd { margin: 0; font-family: var(--serif); font-size: 18px; }
 footer { padding-block: 48px; color: rgba(255,255,255,.6); background: #071729; }
