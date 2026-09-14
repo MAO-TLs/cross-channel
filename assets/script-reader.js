@@ -104,7 +104,37 @@
     return String(value || "Editorial error").split("_").filter(Boolean).map((word) => word[0].toUpperCase() + word.slice(1)).join(" ");
   }
 
-  function annotatedParagraph(item) {
+  let closeAuditNote = () => {};
+  document.addEventListener("keydown", event => { if (event.key === "Escape") closeAuditNote(); });
+  function toggleAuditNote(item, row, paragraphNode, trigger) {
+    const wasOpen = trigger.getAttribute("aria-expanded") === "true";
+    closeAuditNote();
+    if (wasOpen) return;
+    const note = el("aside", "todokanai-error-note");
+    note.setAttribute("aria-label", `George Henry Shaft error note for ${row.ref}`);
+    const header = el("header"), labels = el("div"), close = el("button", "", "Close");
+    labels.append(el("span", "todokanai-error-category", categoryLabel(item.categories?.[0])), el("span", "todokanai-error-severity", "confirmed"));
+    close.type = "button";
+    close.setAttribute("aria-label", "Close error note");
+    header.append(labels, close);
+    note.append(header, el("code", "", row.ref));
+    for (const [label, text, lang] of [["Japanese", row.jp, "ja"], ["George Henry Shaft", item.en, "en"]]) {
+      const evidence = el("div", "todokanai-error-evidence");
+      evidence.append(el("span", "", label), paragraph(text, lang));
+      note.append(evidence);
+    }
+    note.append(el("p", "todokanai-error-explanation", item.assessment || item.remedy || "Open the audit for details."));
+    const actions = el("div", "todokanai-error-actions"), context = el("a", "", "Open this line in context →"), audit = el("a", "", "Open audit →");
+    context.href = `?script=${encodeURIComponent(row.scriptId || index.scripts[state.script].id)}&compare=ghs&errors=ghs#${encodeURIComponent(row.ref)}`;
+    audit.href = "../audit/";
+    actions.append(context, audit); note.append(actions);
+    paragraphNode.after(note);
+    trigger.setAttribute("aria-expanded", "true");
+    closeAuditNote = () => { note.remove(); trigger.setAttribute("aria-expanded", "false"); closeAuditNote = () => {}; };
+    close.addEventListener("click", () => closeAuditNote());
+  }
+
+  function annotatedParagraph(item, row) {
     const text = displayText(item.en);
     const node = el("p", "todokanai-annotated-text");
     node.lang = "en";
@@ -138,7 +168,7 @@
       tooltip.append(el("strong", "", categoryLabel(item.categories?.[0])), el("span", "", item.assessment || item.remedy || "Open the George Henry Shaft audit for details."));
       trigger.setAttribute("aria-describedby", tooltip.id);
       trigger.setAttribute("aria-expanded", "false");
-      trigger.addEventListener("click", () => trigger.setAttribute("aria-expanded", trigger.getAttribute("aria-expanded") === "true" ? "false" : "true"));
+      trigger.addEventListener("click", () => toggleAuditNote(item, row, node, trigger));
       trigger.append(tooltip);
       node.append(trigger);
       cursor = span.end;
@@ -153,7 +183,7 @@
       tooltip.append(el("strong", "", categoryLabel(item.categories?.[0])), el("span", "", item.assessment || item.remedy || "Open the George Henry Shaft audit for details."));
       trigger.setAttribute("aria-describedby", tooltip.id);
       trigger.setAttribute("aria-expanded", "false");
-      trigger.addEventListener("click", () => trigger.setAttribute("aria-expanded", trigger.getAttribute("aria-expanded") === "true" ? "false" : "true"));
+      trigger.addEventListener("click", () => toggleAuditNote(item, row, node, trigger));
       trigger.append(tooltip);
       node.append(trigger);
     }
@@ -183,7 +213,7 @@
       items.forEach((item, itemIndex) => {
         if (itemIndex) shaft.append(el("hr", "comparison-divider"));
         const displayed = displayShaftItem(item, row);
-        const body = state.showErrors && displayed.verdict === "confirmed_error" ? annotatedParagraph(displayed) : paragraph(displayed.en, "en");
+        const body = state.showErrors && displayed.verdict === "confirmed_error" ? annotatedParagraph(displayed, row) : paragraph(displayed.en, "en");
         if (displayed.variantDisplay?.tier === "yellow") body.classList.add("ghs-source-variant-text");
         shaft.append(body);
         const notice = sourceVariantNotice(displayed, row);
@@ -380,7 +410,7 @@
       if (state.showShaft) {
         const items = hit.comparator || [];
         const shaft = el("div", "line-cell line-en line-todokanai");
-        appendShaftContent(shaft, items, hit.row);
+        appendShaftContent(shaft, items, {...hit.row, scriptId: index.scripts[hit.scriptPosition].id});
         if (state.showErrors && items.some((item) => item.verdict === "confirmed_error")) card.classList.add("concordance-hit-error");
         grid.append(shaft);
       }
@@ -450,17 +480,7 @@
       state.showErrors = false;
       $("showGeorgeHenryShaftErrors").checked = false;
     }
-    if (state.showShaft && !index.scripts[state.script].comparisons) {
-      const firstComparison = index.scripts.findIndex((item) => item.comparisons > 0);
-      if (firstComparison >= 0) state.script = firstComparison;
-    }
-    if (state.showShaft && state.scope === "script") {
-      const data = await loadScript(state.script);
-      const firstComparedRow = data.rows.find((row) => row.ghs?.length);
-      await renderScript(firstComparedRow?.ref || "");
-    } else {
-      render();
-    }
+    render();
   });
   $("showGeorgeHenryShaftErrors").addEventListener("change", () => {
     state.showErrors = $("showGeorgeHenryShaftErrors").checked;
