@@ -5,7 +5,7 @@ const vm=require('node:vm');
 const source=fs.readFileSync(require('node:path').join(__dirname,'../assets/script-reader.js'),'utf8');
 function extract(name,next){return source.slice(source.indexOf(`  function ${name}(`),source.indexOf(`  function ${next}(`));}
 function node(tag,text=''){return {tag,text,children:[],append(...xs){this.children.push(...xs)},setAttribute(){},addEventListener(){},getAttribute(){}};}
-const ctx={el:(tag,cls,text)=>node(tag,text||''),displayText:x=>String(x||''),document:{createTextNode:t=>node('#text',t)}};
+const ctx={el:(tag,cls,text)=>node(tag,text||''),displayText:x=>String(x||''),document:{createTextNode:t=>node('#text',t),addEventListener(){}}};
 vm.createContext(ctx);
 vm.runInContext(extract('displayShaftItem','paragraph')+extract('categoryLabel','sourceVariantNotice'),ctx);
 function visible(n){return n.text+n.children.filter(x=>x.tag!=='span').map(visible).join('');}

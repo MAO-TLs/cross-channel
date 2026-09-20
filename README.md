@@ -1,4 +1,4 @@
-# CROSS†CHANNEL English translation v1.1.0
+# CROSS†CHANNEL English translation v1.1.1
 
 MAO Translations publishes the complete *CROSS†CHANNEL ～FINAL COMPLETE～*
 Japanese and MAO English script alongside two independent research editions:
@@ -21,7 +21,7 @@ blocks contain 847 recorded findings.
 
 ## English patch
 
-Download the [v1.1 release](https://github.com/MAO-TLs/cross-channel/releases/tag/v1.1.0) and follow the included README. Requires an unmodified Final Complete 1.0 installation and Python 3. The September 9 refresh adds corrected choice panels and click areas, English opacity labels, and two translated image cards and thumbnails. It retains Source Sans 3 Medium proportional typography, independently centered wrapped lines, the earlier disappearing-interface fix, English menus, and a reversible installer. Allow at least 5 GB free disk space and 8 GB RAM. User spot-check accepted; full-game and native Windows verification remain incomplete. The downloadable manuscript is unchanged and matches the online script. If upgrading, restore the original game with your previous patch installer before installing this refresh; keep the old installer and backup until restoration succeeds. Save data is untouched.
+Download the [v1.1.1 release](https://github.com/MAO-TLs/cross-channel/releases/tag/v1.1.1) and follow the included README. Requires an unmodified Final Complete 1.0 installation and Python 3. Version 1.1.1 standardizes two deliberately recurring passages across twelve script rows. It includes the September 9 choice-panel, image, typography, interface, and installer updates. Allow at least 5 GB free disk space and 8 GB RAM. Static engine and installer validation pass; full-game and native Windows verification remain incomplete. The downloadable manuscript matches the online script. If upgrading, restore the original game with your previous patch installer before installing this refresh; keep the old installer and backup until restoration succeeds. Save data is untouched.
 
 ## Credits
 
