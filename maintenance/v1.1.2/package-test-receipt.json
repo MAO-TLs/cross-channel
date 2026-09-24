@@ -1,0 +1,36 @@
+{
+  "schema": "mao-cross-channel-patch-package-test/1",
+  "status": "pass",
+  "bindings": {
+    "manifest_sha256": "dfac02bcd42bca859d11d3f806bf225e31361cdba5b9240a860240c3ffcbc792",
+    "source_files": {
+      "cc.exe": "d9b6405bceb2f12f57d24bb3e32825d8beec6903f499dc98b48cfacb9c17853e",
+      "data/sys.cpk": "f98e7c9c03373bbce7ddde4869eb7de764ef6c49053cebc62db0139c2ddd61a1",
+      "data/font48.xtx": "8d3f00701f9494efa361eecd299ea57f494ceec9dda608fea944c6c16e74891a",
+      "data/sn.bin": "ab1c90cfd58e2f4be34edb75e8dcf41333474dc228cd1a19103387317fcf9d9f",
+      "data/bg.cpk": "ae8c892704f84d1f29da98aff6036f8de990d363a66b7ce3e5aef5977d9348f2",
+      "data/bgs.cpk": "5f828def64ce94020abd55cdac291294187c583a4150c374575a922f80e5d8c6"
+    }
+  },
+  "checks": {
+    "clean_install": true,
+    "idempotent_install": true,
+    "rollback": true,
+    "idempotent_rollback": true,
+    "original_backups_verified": 6,
+    "modified_source_rejected_without_touching_other_files": true,
+    "partial_install_failure_restored_originals": true,
+    "partial_restore_failure_restored_patched_files": true,
+    "interrupted_transaction_staging_cleaned_up": true,
+    "restore_removes_stale_install_receipt": true,
+    "failed_post_install_verification_restored_originals": true,
+    "failed_post_restore_verification_restored_patched_files": true,
+    "packaged_cli_inspect_install_restore": true,
+    "packaged_cli_unicode_and_space_path": true,
+    "packaged_cli_unicode_and_space_package_path": true,
+    "actual_release_zip_extraction_and_cli": true,
+    "packaged_cli_read_only_retail_directories": true,
+    "read_only_modes_restored_after_failed_install": true,
+    "read_only_modes_restored_after_failed_restore": true
+  }
+}

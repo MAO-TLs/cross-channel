@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "scope": "shipped PE branch handlers in x86 emulation; not a game replay",
+  "archive_sha256": "c9065d43d86ed3f4ed5070bd03b810ab384154d7a268612df7793bc78382a4cd",
+  "executable_sha256": "9e7e948704b9ac8f17801c4f72e69ac902a093ec5bdbf7ea17842951a96725c5",
+  "counts": {
+    "executions": 9172,
+    "branches": 1135,
+    "taken": 1589,
+    "untaken": 2997
+  },
+  "reported_issue_7": [
+    {
+      "variable_value": 0,
+      "old_destination": "0x1bae",
+      "new_destination": "0x1bae",
+      "taken": false
+    },
+    {
+      "variable_value": 1,
+      "old_destination": "0x1bae",
+      "new_destination": "0x1bae",
+      "taken": false
+    },
+    {
+      "variable_value": 32982,
+      "old_destination": "0x1bae",
+      "new_destination": "0x1bae",
+      "taken": false
+    },
+    {
+      "variable_value": 65535,
+      "old_destination": "0x1ab8",
+      "new_destination": "0x1bb7",
+      "taken": true
+    }
+  ],
+  "all_changed_branches_exercised": true,
+  "runtime_replay_complete": false
+}
