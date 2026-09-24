@@ -1,0 +1,128 @@
+{
+  "baseline_bindings": {
+    "baseline_archive_sha256": "f935f9de33e2c48e317b5c2ab83ca6a1b3daf7b9d35a9a1627cf99ee808d4f6c",
+    "centering_tests_sha256": "e306c7e23a7b9d61b7871c1a93f6727b58ec0ec8cc357a7c4c8e07f9f5249446",
+    "finalized_manuscript_sha256": "a3deaa7ed53a06babaf36bad39eae71073b7b6ec587cceed3afa7bf434586cfe",
+    "font_receipt_sha256": "726efdc9dfef9586063cefbcd153dea4e38e17323e263aadb8639ce1c396aabd",
+    "renderer_tests_sha256": "e434fb2c935634899a530d92333ffde84913baf2156a5057cb432cc3600b4e39",
+    "scenario_entrypoint_receipt_sha256": "c54f95b25c171e12c5023f2f12183b58526e9f5373bb1632e7a235922bfaf076"
+  },
+  "bindings": {
+    "baseline_archive_sha256": "67551d84e61206e5f214be067764279eeea71a6d7536f48d5bc596bfac4396cf",
+    "choice_tests_sha256": "b9b57d0b69ec43b91e68c9067c231b2566edd64a6c1bf061c4797f0db726866d",
+    "complete_source_corpus_sha256": "c4c059d1b631a4adbd0c06abb5dbff6a2f21b140cea3deb258a1890e26269a04",
+    "engine_branch_verification_sha256": "6a40da4e1e806454470f62f73533e6afef37a165d78aa0d334727a87636e1ec4",
+    "finalized_manuscript_sha256": "4755a52feb4557a131b41ae41856531e07405ac52b748b46b23957b61d8fc53e",
+    "image_archive_receipt_sha256": "40da1cede06e7809a631da191cc311322d1e96499b582cf110695b13e96785df",
+    "integrated_verification_sha256": "92b2894159a057215d2193ef75b8791e9c557144305301681e4fd44eba74b9d5",
+    "integration_receipt_sha256": "3111041f0896a343125960100aa403c3e0f96bd200463c06c28abe0ee9f5979d",
+    "pointer_only_verification_sha256": "e4e66cc43445983cfa14fa78711f16dd80fef2d5467d042c0186abfa13ad87c6",
+    "previous_release_archive_sha256": "5472562f8d7844e40259b9012b733da4b33633114d1cbb59ad0eb780637b1c59",
+    "repair_receipt_sha256": "5a7dd953da381bd0ffec61537519dbe1dbc8ff241d1731b683ec52aeac2148dd",
+    "scenario_entrypoint_receipt_sha256": "592203b656ec5a9dfaac0bddd5e67f371a04583193d5b6c95ed24ad2f0c660e9",
+    "text_revision_receipt_sha256": "c3c2acf63ed49725a467388be5442d9320cf7f2a906ef0392ff7e9a25243d2ec",
+    "v1_1_3_manuscript_receipt_sha256": "8edb41caae8348ccdcb7d278acf7b6b8e1ab8f96d124782f0a7b3d20b83bf5b0"
+  },
+  "build": "2026-09-24-complete-restoration",
+  "files": [
+    {
+      "patch": "patches/refresh-01.maodelta",
+      "patch_bytes": 4746,
+      "patch_sha256": "328d21a79666a916a20a29be1a8379f14a53dc09e7793ca0253ad7c6166052bb",
+      "path": "cc.exe",
+      "source_bytes": 1751040,
+      "source_sha256": "d9b6405bceb2f12f57d24bb3e32825d8beec6903f499dc98b48cfacb9c17853e",
+      "target_bytes": 1751552,
+      "target_sha256": "9e7e948704b9ac8f17801c4f72e69ac902a093ec5bdbf7ea17842951a96725c5"
+    },
+    {
+      "patch": "patches/refresh-02.maodelta",
+      "patch_bytes": 9546672,
+      "patch_sha256": "ad50af0094bfca73b3587ada67b3c3908206cd428f8055a8645b86422ec3e738",
+      "path": "data/sys.cpk",
+      "source_bytes": 15702504,
+      "source_sha256": "f98e7c9c03373bbce7ddde4869eb7de764ef6c49053cebc62db0139c2ddd61a1",
+      "target_bytes": 15173632,
+      "target_sha256": "21a29b6d2641342ff7fa83f1211b52c1df9907c41235dc00b2d16e98b2fa4c38"
+    },
+    {
+      "patch": "patches/02-font48.xtx.maodelta",
+      "patch_bytes": 15835,
+      "patch_sha256": "b7beb71b52434d0dcc4edc6191ec204df7d99139d74c7b71b8ef7cfa85d0c499",
+      "path": "data/font48.xtx",
+      "source_bytes": 9437216,
+      "source_sha256": "8d3f00701f9494efa361eecd299ea57f494ceec9dda608fea944c6c16e74891a",
+      "target_bytes": 9437216,
+      "target_sha256": "1c70957306b7aaf4ade76781d99d1113c1812e75b0265c665dde3e6a933894a1"
+    },
+    {
+      "delta_stats": {
+        "add_commands": 1,
+        "added_bytes": 6828238,
+        "command_stream_bytes": 6828244,
+        "compressed_stream_bytes": 2076272,
+        "copied_bytes": 0,
+        "copy_commands": 0
+      },
+      "patch": "patches/03-sn.bin.maodelta",
+      "patch_bytes": 2076360,
+      "patch_sha256": "18b1a4e6eddff348f50a5de09a816bc52f1be59e04c4b1ffafcf241f48ea71fb",
+      "path": "data/sn.bin",
+      "source_bytes": 2070973,
+      "source_sha256": "ab1c90cfd58e2f4be34edb75e8dcf41333474dc228cd1a19103387317fcf9d9f",
+      "target_bytes": 6828238,
+      "target_sha256": "2da7f8f3a0ba62cbe69959df83e2e34d08107dbb077e27059c1d0cf9cc233bc9"
+    },
+    {
+      "patch": "patches/refresh-05.maodelta",
+      "patch_bytes": 2169845,
+      "patch_sha256": "3d73bfc2fa8b459db8538c8bb0a8eb29fad5b173c9fd7a40802c6b6b3491e5ce",
+      "path": "data/bg.cpk",
+      "source_bytes": 1803209760,
+      "source_sha256": "ae8c892704f84d1f29da98aff6036f8de990d363a66b7ce3e5aef5977d9348f2",
+      "target_bytes": 1808275456,
+      "target_sha256": "15bc0fee5fd806ec97cf6004942cfad58902b795b79f8a42f00fd324de5c5159"
+    },
+    {
+      "patch": "patches/refresh-06.maodelta",
+      "patch_bytes": 65676,
+      "patch_sha256": "894796a7f3c73e4058feb033c58f9eff117d3cffebe93c4395b77db95a282ee2",
+      "path": "data/bgs.cpk",
+      "source_bytes": 352153632,
+      "source_sha256": "5f828def64ce94020abd55cdac291294187c583a4150c374575a922f80e5d8c6",
+      "target_bytes": 352153632,
+      "target_sha256": "ab9aba10051823b1d1bb47edb61c7658107deb2c81505bbc5f69f77410acf5b5"
+    }
+  ],
+  "installer": {
+    "automatic_restore_on_partial_replace_failure": true,
+    "exact_source_hash_required": true,
+    "persistent_original_backup": ".mao-cross-channel-v1.1-backup",
+    "rollback_refuses_post_install_drift": true,
+    "target_hash_verified_before_replace": true,
+    "transactional_stage_before_replace": true
+  },
+  "schema": "mao-cross-channel-final-complete-patch-package/1",
+  "status": "release",
+  "target": "CROSS†CHANNEL ～FINAL COMPLETE～ 1.0",
+  "validation": {
+    "all_11_affected_scripts_have_zero_japanese_text_rows": true,
+    "all_3374_recovered_rows_source_hash_bound": true,
+    "all_342_unaffected_script_payloads_byte_identical": true,
+    "all_472_choice_ink_bounds_checked": true,
+    "all_affected_instruction_shapes_preserved": true,
+    "all_changed_branches_emulated": true,
+    "all_entry_targets_are_instruction_boundaries": true,
+    "all_text_and_nonpointer_bytes_unchanged": false,
+    "archive_roundtrip_decoded": true,
+    "complete_playthrough": false,
+    "image_archive_payloads_verified": true,
+    "image_cards_runtime_verified": false,
+    "missing_translations_restored": true,
+    "native_windows_replay": false,
+    "reported_failure_replayed_in_game": false,
+    "reported_issue_7_branch_preserved_after_translation": true,
+    "user_spot_check_accepted": false
+  },
+  "version": "1.1.3"
+}

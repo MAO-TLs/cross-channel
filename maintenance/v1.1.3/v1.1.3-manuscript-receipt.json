@@ -1,0 +1,27 @@
+{
+  "schema": "mao-cross-channel-v1.1.3-manuscript-receipt/1",
+  "version": "1.1.3",
+  "source_rows": 54316,
+  "manuscript_rows": 54316,
+  "nonempty_scripts": 323,
+  "v1.1.1_rows_preserved": 50942,
+  "recovered_rows_added": 3374,
+  "recovered_scripts": [
+    "0078",
+    "0149",
+    "0158",
+    "0256",
+    "0281",
+    "0285",
+    "0318",
+    "0325",
+    "0342",
+    "0344",
+    "0345"
+  ],
+  "source_sha256": "c4c059d1b631a4adbd0c06abb5dbff6a2f21b140cea3deb258a1890e26269a04",
+  "manuscript_sha256": "4755a52feb4557a131b41ae41856531e07405ac52b748b46b23957b61d8fc53e",
+  "all_source_hashes_match": true,
+  "all_recovered_english_nonempty": true,
+  "recovered_english_contains_japanese": false
+}

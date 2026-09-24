@@ -19,7 +19,7 @@
         <div class="nav-links"><a href="../">Release</a><a href="./" aria-current="page">Script</a><a href="../audit-ghs/">Audit (GHS)</a><a href="../audit-on-cross-channel/">Audit (On Cross Channel)</a><a href="https://github.com/MAO-TLs/cross-channel">GitHub</a></div>
       </nav>
       <div class="reader-intro shell">
-        <p class="eyebrow">Script Version v1.1.1</p>
+        <p class="eyebrow">Script Version v1.1.3</p>
         <h1>Script browser</h1>
         <p>Read the complete Japanese and MAO English script side by side.</p>
       </div>
@@ -30,9 +30,9 @@
         <div class="control"><label for="scriptSelect">Script</label><div class="script-picker"><button id="previousScript" type="button" aria-label="Previous script">‹</button><select id="scriptSelect"></select><button id="nextScript" type="button" aria-label="Next script">›</button></div></div>
         <fieldset class="search-scope"><legend>Search scope</legend><div class="scope-options"><label><input id="scopeCurrent" type="radio" name="search-scope" value="script" checked><span>Current script</span></label><label><input id="scopeAll" type="radio" name="search-scope" value="corpus"><span>All scripts</span></label></div></fieldset>
         <div class="control"><label for="searchInput" id="searchLabel">Search</label><input id="searchInput" type="search" placeholder="English, Japanese, speaker, ref…" autocomplete="off" spellcheck="false"></div>
-        <div class="result-count" id="searchSummary" role="status" aria-live="polite">Loading 50,942 lines…</div>
+        <div class="result-count" id="searchSummary" role="status" aria-live="polite">Loading 54,316 lines…</div>
         <label class="comparison-toggle"><input id="showGeorgeHenryShaft" type="checkbox"><span id="showGeorgeHenryShaftLabel">Display George Henry Shaft for comparison</span></label>
-        <div class="comparison-errors-row" id="georgeHenryShaftErrorsRow" hidden><label class="comparison-toggle comparison-toggle-errors"><input id="showGeorgeHenryShaftErrors" type="checkbox"><span>Display George Henry Shaft errors</span></label><span class="comparison-errors-status">5,580 recorded errors</span></div>
+        <div class="comparison-errors-row" id="georgeHenryShaftErrorsRow" hidden><label class="comparison-toggle comparison-toggle-errors"><input id="showGeorgeHenryShaftErrors" type="checkbox"><span>Display George Henry Shaft errors</span></label><span class="comparison-errors-status">5,581 recorded errors</span></div>
       </div>
 
       <div id="currentScriptView">
@@ -41,7 +41,7 @@
         <a class="back-to-controls" href="#reader-controls">Back to controls ↑</a>
       </div>
       <div id="corpusView" hidden>
-        <div class="concordance-prompt" id="corpusPrompt"><p class="eyebrow">Full-corpus search</p><h2>Search all 50,942 lines</h2><p>Enter a Japanese or English phrase, speaker name, script number, or exact reference to search the complete corpus.</p></div>
+        <div class="concordance-prompt" id="corpusPrompt"><p class="eyebrow">Full-corpus search</p><h2>Search all 54,316 lines</h2><p>Enter a Japanese or English phrase, speaker name, script number, or exact reference to search the complete corpus.</p></div>
         <div id="corpusResults"></div>
         <button class="concordance-more" id="showMore" type="button" hidden>Show more results <span id="showMoreCount"></span></button>
       </div>

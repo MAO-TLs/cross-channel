@@ -1,0 +1,159 @@
+{
+  "status": "complete_translation_candidate",
+  "archive_sha256": "2da7f8f3a0ba62cbe69959df83e2e34d08107dbb077e27059c1d0cf9cc233bc9",
+  "sections": [
+    {
+      "script": 78,
+      "instructions": 4455,
+      "english_text_rows": 571,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 4445,
+          "new": 4445
+        }
+      ]
+    },
+    {
+      "script": 149,
+      "instructions": 3937,
+      "english_text_rows": 547,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 1351,
+          "new": 1351
+        },
+        {
+          "entry": 2,
+          "old": 13570,
+          "new": 14427
+        }
+      ]
+    },
+    {
+      "script": 158,
+      "instructions": 2215,
+      "english_text_rows": 237,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 9839,
+          "new": 9839
+        }
+      ]
+    },
+    {
+      "script": 256,
+      "instructions": 6672,
+      "english_text_rows": 811,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 10267,
+          "new": 10267
+        },
+        {
+          "entry": 2,
+          "old": 38161,
+          "new": 40760
+        },
+        {
+          "entry": 3,
+          "old": 45547,
+          "new": 48839
+        }
+      ]
+    },
+    {
+      "script": 281,
+      "instructions": 5387,
+      "english_text_rows": 615,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 17180,
+          "new": 17180
+        }
+      ]
+    },
+    {
+      "script": 285,
+      "instructions": 367,
+      "english_text_rows": 37,
+      "entry_relocations": []
+    },
+    {
+      "script": 318,
+      "instructions": 3780,
+      "english_text_rows": 354,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 15779,
+          "new": 15779
+        }
+      ]
+    },
+    {
+      "script": 325,
+      "instructions": 10352,
+      "english_text_rows": 905,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 59382,
+          "new": 59382
+        },
+        {
+          "entry": 2,
+          "old": 71466,
+          "new": 72067
+        }
+      ]
+    },
+    {
+      "script": 342,
+      "instructions": 11405,
+      "english_text_rows": 866,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 73478,
+          "new": 73478
+        }
+      ]
+    },
+    {
+      "script": 344,
+      "instructions": 6434,
+      "english_text_rows": 646,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 51046,
+          "new": 51046
+        }
+      ]
+    },
+    {
+      "script": 345,
+      "instructions": 8307,
+      "english_text_rows": 817,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 61330,
+          "new": 61330
+        }
+      ]
+    }
+  ],
+  "recovered_text_rows_translated": 3374,
+  "all_affected_scripts_have_zero_japanese_text_rows": true,
+  "other_342_script_payloads_unchanged": true,
+  "all_instruction_shapes_preserved": true,
+  "repaired_entry_tables_relocated": true,
+  "runtime_replay_complete": false,
+  "release_ready": false
+}
