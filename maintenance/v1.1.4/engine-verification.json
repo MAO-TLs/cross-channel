@@ -1,0 +1,343 @@
+{
+  "schema": "mao-cross-channel-wordplay-engine-candidate/1",
+  "status": "passed",
+  "base_archive_sha256": "2da7f8f3a0ba62cbe69959df83e2e34d08107dbb077e27059c1d0cf9cc233bc9",
+  "overlay_sha256": "f5ef3103279c5635bfbf6b224bac4b2f1425a2539c0c1dcddbc5e1675098f0f4",
+  "archive": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/cross-channel-retranslation/runs/astra_wordplay_revision_v1/engine-candidate/sn.bin-integrated",
+  "archive_sha256": "beef152cfd2a316fa00de15dd02ec6aedaff2a6c0c526cefba86de3afe0076a0",
+  "changed_scripts": [
+    11,
+    60,
+    62,
+    110,
+    146,
+    149,
+    221,
+    256,
+    268,
+    281,
+    325,
+    342
+  ],
+  "changed_script_count": 12,
+  "changed_rows": 25,
+  "source_bound_manuscript_rows": 54316,
+  "all_revised_rows_roundtrip_exact": true,
+  "all_changed_instruction_shapes_preserved": true,
+  "all_entry_targets_relocated": true,
+  "all_unaffected_script_payloads_byte_identical": true,
+  "runtime_playthrough_complete": false,
+  "projection": [
+    {
+      "ref": "ccfc:sn:0011:00007028:text",
+      "canonical_english": "“Why would you be so cold? Miki wants to grow our love with you.”",
+      "runtime_english": "\"Why would you be so cold? Miki wants to grow our love with%Nyou.\"",
+      "display_lines": 2,
+      "maximum_line_width": 59
+    },
+    {
+      "ref": "ccfc:sn:0060:00001160:text",
+      "canonical_english": "So I considered him in return.",
+      "runtime_english": "So I considered him in return.",
+      "display_lines": 1,
+      "maximum_line_width": 30
+    },
+    {
+      "ref": "ccfc:sn:0062:0000435b:text",
+      "canonical_english": "All sorts of things from a prepubescent beauty.",
+      "runtime_english": "All sorts of things from a prepubescent beauty.",
+      "display_lines": 1,
+      "maximum_line_width": 47
+    },
+    {
+      "ref": "ccfc:sn:0062:00004cb5:text",
+      "canonical_english": "“What is it? Did I have something in my eye?”",
+      "runtime_english": "\"What is it? Did I have something in my eye?\"",
+      "display_lines": 1,
+      "maximum_line_width": 45
+    },
+    {
+      "ref": "ccfc:sn:0110:00004ccd:text",
+      "canonical_english": "“But we’re members of the same group—the last human beings alive—”",
+      "runtime_english": "\"But we're members of the same group―the last human beings%Nalive―\"",
+      "display_lines": 2,
+      "maximum_line_width": 59
+    },
+    {
+      "ref": "ccfc:sn:0146:00001d4a:text",
+      "canonical_english": "The countless idols I’d impregnated in fantasy flashed through my mind.",
+      "runtime_english": "The countless idols I'd impregnated in fantasy flashed%Nthrough my mind.",
+      "display_lines": 2,
+      "maximum_line_width": 54
+    },
+    {
+      "ref": "ccfc:sn:0146:00003754:text",
+      "canonical_english": "“Past tense, huh.”",
+      "runtime_english": "\"Past tense, huh.\"",
+      "display_lines": 1,
+      "maximum_line_width": 18
+    },
+    {
+      "ref": "ccfc:sn:0149:000011ce:text",
+      "canonical_english": "I pulled some style out of my Taichi sack—a folding fan—and snapped it open.",
+      "runtime_english": "I pulled some style out of my Taichi sack―a folding%Nfan―and snapped it open.",
+      "display_lines": 2,
+      "maximum_line_width": 52
+    },
+    {
+      "ref": "ccfc:sn:0149:00006f9b:text",
+      "canonical_english": "\"Up and to the right\" is supposed to mean things are improving, but Touko's condition suggested otherwise.",
+      "runtime_english": "\"Up and to the right\" is supposed to mean things are%Nimproving, but Touko's condition suggested otherwise.",
+      "display_lines": 2,
+      "maximum_line_width": 53
+    },
+    {
+      "ref": "ccfc:sn:0221:000006bd:text",
+      "canonical_english": "“Better than Templeton Peck.”",
+      "runtime_english": "\"Better than Templeton Peck.\"",
+      "display_lines": 1,
+      "maximum_line_width": 29
+    },
+    {
+      "ref": "ccfc:sn:0256:0000302a:text",
+      "canonical_english": "\"Master... who?\"",
+      "runtime_english": "\"Master... who?\"",
+      "display_lines": 1,
+      "maximum_line_width": 16
+    },
+    {
+      "ref": "ccfc:sn:0256:000030f9:text",
+      "canonical_english": "\"Master?\"",
+      "runtime_english": "\"Master?\"",
+      "display_lines": 1,
+      "maximum_line_width": 9
+    },
+    {
+      "ref": "ccfc:sn:0256:0000311f:text",
+      "canonical_english": "I gave an old butler's ho-ho-ho.",
+      "runtime_english": "I gave an old butler's ho-ho-ho.",
+      "display_lines": 1,
+      "maximum_line_width": 32
+    },
+    {
+      "ref": "ccfc:sn:0256:00003159:text",
+      "canonical_english": "\"At your service, milady.\"",
+      "runtime_english": "\"At your service, milady.\"",
+      "display_lines": 1,
+      "maximum_line_width": 26
+    },
+    {
+      "ref": "ccfc:sn:0256:000031b3:text",
+      "canonical_english": "\"No, I mean... masturbation.\"",
+      "runtime_english": "\"No, I mean... masturbation.\"",
+      "display_lines": 1,
+      "maximum_line_width": 29
+    },
+    {
+      "ref": "ccfc:sn:0256:0000320c:text",
+      "canonical_english": "\"Master Bation?\"",
+      "runtime_english": "\"Master Bation?\"",
+      "display_lines": 1,
+      "maximum_line_width": 16
+    },
+    {
+      "ref": "ccfc:sn:0256:0000333c:text",
+      "canonical_english": "\"Do you know what I mean if I say touching yourself?\"",
+      "runtime_english": "\"Do you know what I mean if I say touching yourself?\"",
+      "display_lines": 1,
+      "maximum_line_width": 53
+    },
+    {
+      "ref": "ccfc:sn:0256:0000362a:text",
+      "canonical_english": "\"Six times a week? Now that's dedication! No two-day weekend for you. That kind of hard work deserves a bonus, you obscene little Fräu-lewd.\"",
+      "runtime_english": "\"Six times a week? Now that's dedication! No two-day weekend%Nfor you. That kind of hard work deserves a bonus, you%Nobscene little Frau-lewd.\"",
+      "display_lines": 3,
+      "maximum_line_width": 60
+    },
+    {
+      "ref": "ccfc:sn:0256:00003a27:text",
+      "canonical_english": "\"Our jaunty little comedy show is over. Now comes the main event. We shall see which is real: your modesty or my lust.\"",
+      "runtime_english": "\"Our jaunty little comedy show is over. Now comes the main%Nevent. We shall see which is real: your modesty or my lust.\"",
+      "display_lines": 2,
+      "maximum_line_width": 60
+    },
+    {
+      "ref": "ccfc:sn:0268:000036b4:text",
+      "canonical_english": "“But I stayed calm. Because I’m a man. I didn’t have so much as a hole that could physically receive Sakuraba’s love. (Adult joke.)”",
+      "runtime_english": "\"But I stayed calm. Because I'm a man. I didn't have so much%Nas a hole that could physically receive Sakuraba's love.%N(Adult joke.)\"",
+      "display_lines": 3,
+      "maximum_line_width": 60
+    },
+    {
+      "ref": "ccfc:sn:0281:00006255:text",
+      "canonical_english": "A glob of saliva from her sex rolled free.",
+      "runtime_english": "A glob of saliva from her sex rolled free.",
+      "display_lines": 1,
+      "maximum_line_width": 42
+    },
+    {
+      "ref": "ccfc:sn:0281:0000635e:text",
+      "canonical_english": "\"A sexy little wetting accident.\"",
+      "runtime_english": "\"A sexy little wetting accident.\"",
+      "display_lines": 1,
+      "maximum_line_width": 33
+    },
+    {
+      "ref": "ccfc:sn:0281:00006462:text",
+      "canonical_english": "\"Yes... I had a wetting accident...\"",
+      "runtime_english": "\"Yes... I had a wetting accident...\"",
+      "display_lines": 1,
+      "maximum_line_width": 36
+    },
+    {
+      "ref": "ccfc:sn:0325:00013c8e:text",
+      "canonical_english": "\"No. Here we go—big grinding strokes now. One-two, one-two.\"",
+      "runtime_english": "\"No. Here we go―big grinding strokes now. One-two,%None-two.\"",
+      "display_lines": 2,
+      "maximum_line_width": 51
+    },
+    {
+      "ref": "ccfc:sn:0342:00006066:text",
+      "canonical_english": "“Living. I don’t think I can keep going.”",
+      "runtime_english": "\"Living. I don't think I can keep going.\"",
+      "display_lines": 1,
+      "maximum_line_width": 41
+    }
+  ],
+  "scripts": [
+    {
+      "script": 11,
+      "instructions": 11494,
+      "entry_relocations": [],
+      "old_bytes": 103591,
+      "new_bytes": 103585
+    },
+    {
+      "script": 60,
+      "instructions": 1286,
+      "entry_relocations": [],
+      "old_bytes": 11170,
+      "new_bytes": 11176
+    },
+    {
+      "script": 62,
+      "instructions": 3549,
+      "entry_relocations": [],
+      "old_bytes": 31673,
+      "new_bytes": 31725
+    },
+    {
+      "script": 110,
+      "instructions": 3362,
+      "entry_relocations": [],
+      "old_bytes": 27658,
+      "new_bytes": 27682
+    },
+    {
+      "script": 146,
+      "instructions": 4512,
+      "entry_relocations": [],
+      "old_bytes": 36791,
+      "new_bytes": 36835
+    },
+    {
+      "script": 149,
+      "instructions": 3937,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 1351,
+          "new": 1351
+        },
+        {
+          "entry": 2,
+          "old": 14427,
+          "new": 14443
+        }
+      ],
+      "old_bytes": 40069,
+      "new_bytes": 40098
+    },
+    {
+      "script": 221,
+      "instructions": 1977,
+      "entry_relocations": [],
+      "old_bytes": 15890,
+      "new_bytes": 15901
+    },
+    {
+      "script": 256,
+      "instructions": 6672,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 10267,
+          "new": 10267
+        },
+        {
+          "entry": 2,
+          "old": 40760,
+          "new": 40727
+        },
+        {
+          "entry": 3,
+          "old": 48839,
+          "new": 48806
+        }
+      ],
+      "old_bytes": 63045,
+      "new_bytes": 63012
+    },
+    {
+      "script": 268,
+      "instructions": 2203,
+      "entry_relocations": [],
+      "old_bytes": 21376,
+      "new_bytes": 21390
+    },
+    {
+      "script": 281,
+      "instructions": 5387,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 17180,
+          "new": 17180
+        }
+      ],
+      "old_bytes": 51226,
+      "new_bytes": 51249
+    },
+    {
+      "script": 325,
+      "instructions": 10352,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 59382,
+          "new": 59382
+        },
+        {
+          "entry": 2,
+          "old": 72067,
+          "new": 72067
+        }
+      ],
+      "old_bytes": 88463,
+      "new_bytes": 88473
+    },
+    {
+      "script": 342,
+      "instructions": 11405,
+      "entry_relocations": [
+        {
+          "entry": 1,
+          "old": 73478,
+          "new": 73505
+        }
+      ],
+      "old_bytes": 89579,
+      "new_bytes": 89606
+    }
+  ]
+}

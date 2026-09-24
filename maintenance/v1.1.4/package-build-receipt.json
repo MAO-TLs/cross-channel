@@ -1,0 +1,11 @@
+{
+  "schema": "mao-cross-channel-v1.1.4-package-build/1",
+  "status": "pass",
+  "package": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/cross-channel-retranslation/runs/astra_wordplay_revision_v1/release-v1.1.4/CrossChannel-English-Patch-1.1.4",
+  "archive": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/cross-channel-retranslation/runs/astra_wordplay_revision_v1/release-v1.1.4/CROSS-CHANNEL-English-Patch-v1.1.4.zip",
+  "archive_sha256": "bf0c924dfcef663c23815435667ad92ccc32b95765c9ede07785f718ec608725",
+  "archive_bytes": 13862967,
+  "target_sn_sha256": "beef152cfd2a316fa00de15dd02ec6aedaff2a6c0c526cefba86de3afe0076a0",
+  "manuscript_sha256": "3bdb3609cc10f5635e759c3d3bb82524850184214597b39466cdf4c03fbc9f3c",
+  "manifest_sha256": "f715bf92d91ed646f925b58fb6dfbbcedf4c183a4199dd69010a4f02d5f624f1"
+}

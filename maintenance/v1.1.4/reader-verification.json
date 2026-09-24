@@ -1,0 +1,19 @@
+{
+  "schema": "mao-cross-channel-v1.1.4-reader-verification/1",
+  "status": "pass",
+  "rows": 54316,
+  "scripts": 323,
+  "changed_rows": 25,
+  "checks": {
+    "reader_refs_match_complete_source_order": true,
+    "reader_japanese_matches_complete_source": true,
+    "reader_english_matches_v1.1.4_manuscript": true,
+    "all_public_manifest_artifact_hashes_match": true
+  },
+  "bindings": {
+    "source_sha256": "c4c059d1b631a4adbd0c06abb5dbff6a2f21b140cea3deb258a1890e26269a04",
+    "manuscript_sha256": "3bdb3609cc10f5635e759c3d3bb82524850184214597b39466cdf4c03fbc9f3c",
+    "reader_index_sha256": "226e34c8590ad9e23e9d52fab90df072ad2335f9f784751d52d715c3d6a84eee",
+    "public_data_manifest_sha256": "2065529a235d2131d1fd4dbb8d45d8ce63301aa6167aad72db0fef2888c57f23"
+  }
+}
