@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "version": "2.0.1",
+  "manuscript_sha256": "56074807fa49a65d2125cf6c1c8fd76e96d14d8221bddfe254790731b80a77d3",
+  "archive_sha256": "9127ffea06bf74b9e455542657e09bfb9359096ee41678dc5c4f4a3ac5a1add3",
+  "archive_bytes": 13849749,
+  "target_sn_sha256": "d79a145e3229fbdaeeb921ec51344f22ba0083b3e4d3724a0a0d266d6d1d253f",
+  "manifest_sha256": "9a5ee1d10c7403a999c3cc9eb949ef7a6a19844d43e2f811fb698df647d5b34d",
+  "package_test_receipt_sha256": "7fa4535a7f85d9de7b29f1793989baf3c2c202a439135674aaf3c25d63896cf4"
+}

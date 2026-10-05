@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "rows": 54316,
+  "changed_rows": 3,
+  "reader_english_matches_hotfix_manuscript": true,
+  "manuscript_sha256": "56074807fa49a65d2125cf6c1c8fd76e96d14d8221bddfe254790731b80a77d3",
+  "public_manifest_hashes_exact": true
+}
