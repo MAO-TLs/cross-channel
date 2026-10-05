@@ -1,0 +1,99 @@
+{
+  "status": "private header-relocated draft; decode and runtime checks pending",
+  "changed_entry_slots": [
+    {
+      "script": 0,
+      "slot": 7,
+      "before": 95080,
+      "after": 95085
+    },
+    {
+      "script": 78,
+      "slot": 1,
+      "before": 4190,
+      "after": 4442
+    },
+    {
+      "script": 149,
+      "slot": 1,
+      "before": 1257,
+      "after": 1341
+    },
+    {
+      "script": 149,
+      "slot": 2,
+      "before": 13476,
+      "after": 14442
+    },
+    {
+      "script": 158,
+      "slot": 1,
+      "before": 9275,
+      "after": 9849
+    },
+    {
+      "script": 256,
+      "slot": 1,
+      "before": 9467,
+      "after": 10226
+    },
+    {
+      "script": 256,
+      "slot": 2,
+      "before": 37361,
+      "after": 40706
+    },
+    {
+      "script": 256,
+      "slot": 3,
+      "before": 44747,
+      "after": 48771
+    },
+    {
+      "script": 281,
+      "slot": 1,
+      "before": 16346,
+      "after": 17017
+    },
+    {
+      "script": 318,
+      "slot": 1,
+      "before": 14964,
+      "after": 15690
+    },
+    {
+      "script": 325,
+      "slot": 1,
+      "before": 56042,
+      "after": 58996
+    },
+    {
+      "script": 325,
+      "slot": 2,
+      "before": 68126,
+      "after": 71694
+    },
+    {
+      "script": 342,
+      "slot": 1,
+      "before": 70287,
+      "after": 73486
+    },
+    {
+      "script": 344,
+      "slot": 1,
+      "before": 47598,
+      "after": 51165
+    },
+    {
+      "script": 345,
+      "slot": 1,
+      "before": 57451,
+      "after": 61349
+    }
+  ],
+  "nonheader_bytes_unchanged": true,
+  "archive_table_unchanged": true,
+  "compressed_roundtrip_exact": true,
+  "sha256": "18f444d2c5d96230ecf3720d7b134632641cfdd44c92c0c895a73d0022582912"
+}

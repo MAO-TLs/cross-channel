@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "zip_crc": true,
+  "all_members_match_package": true,
+  "all_six_delta_hashes_match_manifest": true,
+  "no_interpreter_caches": true,
+  "stable_version": "2.1.0"
+}

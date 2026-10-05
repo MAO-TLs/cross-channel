@@ -1,0 +1,1773 @@
+{
+  "scope": "all instructions, nontext fields and mapped jumps against packing input; entry header relocation and gameplay separate",
+  "scripts": 353,
+  "instructions": 734328,
+  "findings_count": 0,
+  "results": [
+    {
+      "script": "0000",
+      "instructions": 16761,
+      "findings": []
+    },
+    {
+      "script": "0001",
+      "instructions": 63,
+      "findings": []
+    },
+    {
+      "script": "0002",
+      "instructions": 1259,
+      "findings": []
+    },
+    {
+      "script": "0003",
+      "instructions": 11463,
+      "findings": []
+    },
+    {
+      "script": "0004",
+      "instructions": 18646,
+      "findings": []
+    },
+    {
+      "script": "0005",
+      "instructions": 12411,
+      "findings": []
+    },
+    {
+      "script": "0006",
+      "instructions": 18700,
+      "findings": []
+    },
+    {
+      "script": "0007",
+      "instructions": 11483,
+      "findings": []
+    },
+    {
+      "script": "0008",
+      "instructions": 1830,
+      "findings": []
+    },
+    {
+      "script": "0009",
+      "instructions": 3761,
+      "findings": []
+    },
+    {
+      "script": "0010",
+      "instructions": 949,
+      "findings": []
+    },
+    {
+      "script": "0011",
+      "instructions": 11494,
+      "findings": []
+    },
+    {
+      "script": "0012",
+      "instructions": 731,
+      "findings": []
+    },
+    {
+      "script": "0013",
+      "instructions": 5984,
+      "findings": []
+    },
+    {
+      "script": "0014",
+      "instructions": 8394,
+      "findings": []
+    },
+    {
+      "script": "0015",
+      "instructions": 5863,
+      "findings": []
+    },
+    {
+      "script": "0016",
+      "instructions": 4172,
+      "findings": []
+    },
+    {
+      "script": "0017",
+      "instructions": 4033,
+      "findings": []
+    },
+    {
+      "script": "0018",
+      "instructions": 255,
+      "findings": []
+    },
+    {
+      "script": "0019",
+      "instructions": 5654,
+      "findings": []
+    },
+    {
+      "script": "0020",
+      "instructions": 1925,
+      "findings": []
+    },
+    {
+      "script": "0021",
+      "instructions": 5734,
+      "findings": []
+    },
+    {
+      "script": "0022",
+      "instructions": 642,
+      "findings": []
+    },
+    {
+      "script": "0023",
+      "instructions": 14453,
+      "findings": []
+    },
+    {
+      "script": "0024",
+      "instructions": 94,
+      "findings": []
+    },
+    {
+      "script": "0025",
+      "instructions": 94,
+      "findings": []
+    },
+    {
+      "script": "0026",
+      "instructions": 114,
+      "findings": []
+    },
+    {
+      "script": "0027",
+      "instructions": 94,
+      "findings": []
+    },
+    {
+      "script": "0028",
+      "instructions": 94,
+      "findings": []
+    },
+    {
+      "script": "0029",
+      "instructions": 94,
+      "findings": []
+    },
+    {
+      "script": "0030",
+      "instructions": 108,
+      "findings": []
+    },
+    {
+      "script": "0031",
+      "instructions": 94,
+      "findings": []
+    },
+    {
+      "script": "0032",
+      "instructions": 94,
+      "findings": []
+    },
+    {
+      "script": "0033",
+      "instructions": 94,
+      "findings": []
+    },
+    {
+      "script": "0034",
+      "instructions": 94,
+      "findings": []
+    },
+    {
+      "script": "0035",
+      "instructions": 94,
+      "findings": []
+    },
+    {
+      "script": "0036",
+      "instructions": 94,
+      "findings": []
+    },
+    {
+      "script": "0037",
+      "instructions": 94,
+      "findings": []
+    },
+    {
+      "script": "0038",
+      "instructions": 7639,
+      "findings": []
+    },
+    {
+      "script": "0039",
+      "instructions": 9063,
+      "findings": []
+    },
+    {
+      "script": "0040",
+      "instructions": 17318,
+      "findings": []
+    },
+    {
+      "script": "0041",
+      "instructions": 8194,
+      "findings": []
+    },
+    {
+      "script": "0042",
+      "instructions": 8917,
+      "findings": []
+    },
+    {
+      "script": "0043",
+      "instructions": 9208,
+      "findings": []
+    },
+    {
+      "script": "0044",
+      "instructions": 19629,
+      "findings": []
+    },
+    {
+      "script": "0045",
+      "instructions": 283,
+      "findings": []
+    },
+    {
+      "script": "0046",
+      "instructions": 2612,
+      "findings": []
+    },
+    {
+      "script": "0047",
+      "instructions": 2234,
+      "findings": []
+    },
+    {
+      "script": "0048",
+      "instructions": 1706,
+      "findings": []
+    },
+    {
+      "script": "0049",
+      "instructions": 280,
+      "findings": []
+    },
+    {
+      "script": "0050",
+      "instructions": 125,
+      "findings": []
+    },
+    {
+      "script": "0051",
+      "instructions": 2629,
+      "findings": []
+    },
+    {
+      "script": "0052",
+      "instructions": 2568,
+      "findings": []
+    },
+    {
+      "script": "0053",
+      "instructions": 1319,
+      "findings": []
+    },
+    {
+      "script": "0054",
+      "instructions": 712,
+      "findings": []
+    },
+    {
+      "script": "0055",
+      "instructions": 694,
+      "findings": []
+    },
+    {
+      "script": "0056",
+      "instructions": 78,
+      "findings": []
+    },
+    {
+      "script": "0057",
+      "instructions": 2488,
+      "findings": []
+    },
+    {
+      "script": "0058",
+      "instructions": 834,
+      "findings": []
+    },
+    {
+      "script": "0059",
+      "instructions": 275,
+      "findings": []
+    },
+    {
+      "script": "0060",
+      "instructions": 1286,
+      "findings": []
+    },
+    {
+      "script": "0061",
+      "instructions": 568,
+      "findings": []
+    },
+    {
+      "script": "0062",
+      "instructions": 3549,
+      "findings": []
+    },
+    {
+      "script": "0063",
+      "instructions": 507,
+      "findings": []
+    },
+    {
+      "script": "0064",
+      "instructions": 37,
+      "findings": []
+    },
+    {
+      "script": "0065",
+      "instructions": 4012,
+      "findings": []
+    },
+    {
+      "script": "0066",
+      "instructions": 3796,
+      "findings": []
+    },
+    {
+      "script": "0067",
+      "instructions": 1560,
+      "findings": []
+    },
+    {
+      "script": "0068",
+      "instructions": 330,
+      "findings": []
+    },
+    {
+      "script": "0069",
+      "instructions": 1779,
+      "findings": []
+    },
+    {
+      "script": "0070",
+      "instructions": 1239,
+      "findings": []
+    },
+    {
+      "script": "0071",
+      "instructions": 2764,
+      "findings": []
+    },
+    {
+      "script": "0072",
+      "instructions": 2240,
+      "findings": []
+    },
+    {
+      "script": "0073",
+      "instructions": 2809,
+      "findings": []
+    },
+    {
+      "script": "0074",
+      "instructions": 2299,
+      "findings": []
+    },
+    {
+      "script": "0075",
+      "instructions": 840,
+      "findings": []
+    },
+    {
+      "script": "0076",
+      "instructions": 175,
+      "findings": []
+    },
+    {
+      "script": "0077",
+      "instructions": 339,
+      "findings": []
+    },
+    {
+      "script": "0078",
+      "instructions": 4455,
+      "findings": []
+    },
+    {
+      "script": "0079",
+      "instructions": 303,
+      "findings": []
+    },
+    {
+      "script": "0080",
+      "instructions": 1344,
+      "findings": []
+    },
+    {
+      "script": "0081",
+      "instructions": 8400,
+      "findings": []
+    },
+    {
+      "script": "0082",
+      "instructions": 1439,
+      "findings": []
+    },
+    {
+      "script": "0083",
+      "instructions": 1371,
+      "findings": []
+    },
+    {
+      "script": "0084",
+      "instructions": 9569,
+      "findings": []
+    },
+    {
+      "script": "0085",
+      "instructions": 522,
+      "findings": []
+    },
+    {
+      "script": "0086",
+      "instructions": 3639,
+      "findings": []
+    },
+    {
+      "script": "0087",
+      "instructions": 596,
+      "findings": []
+    },
+    {
+      "script": "0088",
+      "instructions": 125,
+      "findings": []
+    },
+    {
+      "script": "0089",
+      "instructions": 1081,
+      "findings": []
+    },
+    {
+      "script": "0090",
+      "instructions": 3376,
+      "findings": []
+    },
+    {
+      "script": "0091",
+      "instructions": 2844,
+      "findings": []
+    },
+    {
+      "script": "0092",
+      "instructions": 1825,
+      "findings": []
+    },
+    {
+      "script": "0093",
+      "instructions": 378,
+      "findings": []
+    },
+    {
+      "script": "0094",
+      "instructions": 1490,
+      "findings": []
+    },
+    {
+      "script": "0095",
+      "instructions": 211,
+      "findings": []
+    },
+    {
+      "script": "0096",
+      "instructions": 417,
+      "findings": []
+    },
+    {
+      "script": "0097",
+      "instructions": 11,
+      "findings": []
+    },
+    {
+      "script": "0098",
+      "instructions": 1307,
+      "findings": []
+    },
+    {
+      "script": "0099",
+      "instructions": 423,
+      "findings": []
+    },
+    {
+      "script": "0100",
+      "instructions": 2465,
+      "findings": []
+    },
+    {
+      "script": "0101",
+      "instructions": 408,
+      "findings": []
+    },
+    {
+      "script": "0102",
+      "instructions": 1758,
+      "findings": []
+    },
+    {
+      "script": "0103",
+      "instructions": 37,
+      "findings": []
+    },
+    {
+      "script": "0104",
+      "instructions": 118,
+      "findings": []
+    },
+    {
+      "script": "0105",
+      "instructions": 1193,
+      "findings": []
+    },
+    {
+      "script": "0106",
+      "instructions": 907,
+      "findings": []
+    },
+    {
+      "script": "0107",
+      "instructions": 2197,
+      "findings": []
+    },
+    {
+      "script": "0108",
+      "instructions": 666,
+      "findings": []
+    },
+    {
+      "script": "0109",
+      "instructions": 520,
+      "findings": []
+    },
+    {
+      "script": "0110",
+      "instructions": 3360,
+      "findings": []
+    },
+    {
+      "script": "0111",
+      "instructions": 569,
+      "findings": []
+    },
+    {
+      "script": "0112",
+      "instructions": 11,
+      "findings": []
+    },
+    {
+      "script": "0113",
+      "instructions": 2504,
+      "findings": []
+    },
+    {
+      "script": "0114",
+      "instructions": 834,
+      "findings": []
+    },
+    {
+      "script": "0115",
+      "instructions": 299,
+      "findings": []
+    },
+    {
+      "script": "0116",
+      "instructions": 1085,
+      "findings": []
+    },
+    {
+      "script": "0117",
+      "instructions": 1704,
+      "findings": []
+    },
+    {
+      "script": "0118",
+      "instructions": 446,
+      "findings": []
+    },
+    {
+      "script": "0119",
+      "instructions": 3813,
+      "findings": []
+    },
+    {
+      "script": "0120",
+      "instructions": 1560,
+      "findings": []
+    },
+    {
+      "script": "0121",
+      "instructions": 330,
+      "findings": []
+    },
+    {
+      "script": "0122",
+      "instructions": 573,
+      "findings": []
+    },
+    {
+      "script": "0123",
+      "instructions": 1262,
+      "findings": []
+    },
+    {
+      "script": "0124",
+      "instructions": 2224,
+      "findings": []
+    },
+    {
+      "script": "0125",
+      "instructions": 586,
+      "findings": []
+    },
+    {
+      "script": "0126",
+      "instructions": 2292,
+      "findings": []
+    },
+    {
+      "script": "0127",
+      "instructions": 840,
+      "findings": []
+    },
+    {
+      "script": "0128",
+      "instructions": 175,
+      "findings": []
+    },
+    {
+      "script": "0129",
+      "instructions": 339,
+      "findings": []
+    },
+    {
+      "script": "0130",
+      "instructions": 4454,
+      "findings": []
+    },
+    {
+      "script": "0131",
+      "instructions": 303,
+      "findings": []
+    },
+    {
+      "script": "0132",
+      "instructions": 1322,
+      "findings": []
+    },
+    {
+      "script": "0133",
+      "instructions": 1263,
+      "findings": []
+    },
+    {
+      "script": "0134",
+      "instructions": 11,
+      "findings": []
+    },
+    {
+      "script": "0135",
+      "instructions": 11,
+      "findings": []
+    },
+    {
+      "script": "0136",
+      "instructions": 1548,
+      "findings": []
+    },
+    {
+      "script": "0137",
+      "instructions": 1020,
+      "findings": []
+    },
+    {
+      "script": "0138",
+      "instructions": 2380,
+      "findings": []
+    },
+    {
+      "script": "0139",
+      "instructions": 1446,
+      "findings": []
+    },
+    {
+      "script": "0140",
+      "instructions": 11,
+      "findings": []
+    },
+    {
+      "script": "0141",
+      "instructions": 1312,
+      "findings": []
+    },
+    {
+      "script": "0142",
+      "instructions": 729,
+      "findings": []
+    },
+    {
+      "script": "0143",
+      "instructions": 1438,
+      "findings": []
+    },
+    {
+      "script": "0144",
+      "instructions": 351,
+      "findings": []
+    },
+    {
+      "script": "0145",
+      "instructions": 2982,
+      "findings": []
+    },
+    {
+      "script": "0146",
+      "instructions": 4512,
+      "findings": []
+    },
+    {
+      "script": "0147",
+      "instructions": 455,
+      "findings": []
+    },
+    {
+      "script": "0148",
+      "instructions": 2475,
+      "findings": []
+    },
+    {
+      "script": "0149",
+      "instructions": 3937,
+      "findings": []
+    },
+    {
+      "script": "0150",
+      "instructions": 722,
+      "findings": []
+    },
+    {
+      "script": "0151",
+      "instructions": 2922,
+      "findings": []
+    },
+    {
+      "script": "0152",
+      "instructions": 1462,
+      "findings": []
+    },
+    {
+      "script": "0153",
+      "instructions": 1104,
+      "findings": []
+    },
+    {
+      "script": "0154",
+      "instructions": 11,
+      "findings": []
+    },
+    {
+      "script": "0155",
+      "instructions": 2191,
+      "findings": []
+    },
+    {
+      "script": "0156",
+      "instructions": 1243,
+      "findings": []
+    },
+    {
+      "script": "0157",
+      "instructions": 496,
+      "findings": []
+    },
+    {
+      "script": "0158",
+      "instructions": 2215,
+      "findings": []
+    },
+    {
+      "script": "0159",
+      "instructions": 180,
+      "findings": []
+    },
+    {
+      "script": "0160",
+      "instructions": 2731,
+      "findings": []
+    },
+    {
+      "script": "0161",
+      "instructions": 629,
+      "findings": []
+    },
+    {
+      "script": "0162",
+      "instructions": 680,
+      "findings": []
+    },
+    {
+      "script": "0163",
+      "instructions": 863,
+      "findings": []
+    },
+    {
+      "script": "0164",
+      "instructions": 1691,
+      "findings": []
+    },
+    {
+      "script": "0165",
+      "instructions": 82,
+      "findings": []
+    },
+    {
+      "script": "0166",
+      "instructions": 78,
+      "findings": []
+    },
+    {
+      "script": "0167",
+      "instructions": 272,
+      "findings": []
+    },
+    {
+      "script": "0168",
+      "instructions": 1566,
+      "findings": []
+    },
+    {
+      "script": "0169",
+      "instructions": 1672,
+      "findings": []
+    },
+    {
+      "script": "0170",
+      "instructions": 83,
+      "findings": []
+    },
+    {
+      "script": "0171",
+      "instructions": 95,
+      "findings": []
+    },
+    {
+      "script": "0172",
+      "instructions": 1894,
+      "findings": []
+    },
+    {
+      "script": "0173",
+      "instructions": 74,
+      "findings": []
+    },
+    {
+      "script": "0174",
+      "instructions": 221,
+      "findings": []
+    },
+    {
+      "script": "0175",
+      "instructions": 1118,
+      "findings": []
+    },
+    {
+      "script": "0176",
+      "instructions": 27,
+      "findings": []
+    },
+    {
+      "script": "0177",
+      "instructions": 11,
+      "findings": []
+    },
+    {
+      "script": "0178",
+      "instructions": 677,
+      "findings": []
+    },
+    {
+      "script": "0179",
+      "instructions": 248,
+      "findings": []
+    },
+    {
+      "script": "0180",
+      "instructions": 5797,
+      "findings": []
+    },
+    {
+      "script": "0181",
+      "instructions": 291,
+      "findings": []
+    },
+    {
+      "script": "0182",
+      "instructions": 143,
+      "findings": []
+    },
+    {
+      "script": "0183",
+      "instructions": 685,
+      "findings": []
+    },
+    {
+      "script": "0184",
+      "instructions": 245,
+      "findings": []
+    },
+    {
+      "script": "0185",
+      "instructions": 1515,
+      "findings": []
+    },
+    {
+      "script": "0186",
+      "instructions": 484,
+      "findings": []
+    },
+    {
+      "script": "0187",
+      "instructions": 171,
+      "findings": []
+    },
+    {
+      "script": "0188",
+      "instructions": 518,
+      "findings": []
+    },
+    {
+      "script": "0189",
+      "instructions": 31,
+      "findings": []
+    },
+    {
+      "script": "0190",
+      "instructions": 420,
+      "findings": []
+    },
+    {
+      "script": "0191",
+      "instructions": 552,
+      "findings": []
+    },
+    {
+      "script": "0192",
+      "instructions": 404,
+      "findings": []
+    },
+    {
+      "script": "0193",
+      "instructions": 848,
+      "findings": []
+    },
+    {
+      "script": "0194",
+      "instructions": 330,
+      "findings": []
+    },
+    {
+      "script": "0195",
+      "instructions": 980,
+      "findings": []
+    },
+    {
+      "script": "0196",
+      "instructions": 236,
+      "findings": []
+    },
+    {
+      "script": "0197",
+      "instructions": 1023,
+      "findings": []
+    },
+    {
+      "script": "0198",
+      "instructions": 1219,
+      "findings": []
+    },
+    {
+      "script": "0199",
+      "instructions": 416,
+      "findings": []
+    },
+    {
+      "script": "0200",
+      "instructions": 39,
+      "findings": []
+    },
+    {
+      "script": "0201",
+      "instructions": 204,
+      "findings": []
+    },
+    {
+      "script": "0202",
+      "instructions": 92,
+      "findings": []
+    },
+    {
+      "script": "0203",
+      "instructions": 108,
+      "findings": []
+    },
+    {
+      "script": "0204",
+      "instructions": 39,
+      "findings": []
+    },
+    {
+      "script": "0205",
+      "instructions": 127,
+      "findings": []
+    },
+    {
+      "script": "0206",
+      "instructions": 1637,
+      "findings": []
+    },
+    {
+      "script": "0207",
+      "instructions": 288,
+      "findings": []
+    },
+    {
+      "script": "0208",
+      "instructions": 775,
+      "findings": []
+    },
+    {
+      "script": "0209",
+      "instructions": 365,
+      "findings": []
+    },
+    {
+      "script": "0210",
+      "instructions": 79,
+      "findings": []
+    },
+    {
+      "script": "0211",
+      "instructions": 325,
+      "findings": []
+    },
+    {
+      "script": "0212",
+      "instructions": 338,
+      "findings": []
+    },
+    {
+      "script": "0213",
+      "instructions": 177,
+      "findings": []
+    },
+    {
+      "script": "0214",
+      "instructions": 249,
+      "findings": []
+    },
+    {
+      "script": "0215",
+      "instructions": 214,
+      "findings": []
+    },
+    {
+      "script": "0216",
+      "instructions": 136,
+      "findings": []
+    },
+    {
+      "script": "0217",
+      "instructions": 153,
+      "findings": []
+    },
+    {
+      "script": "0218",
+      "instructions": 162,
+      "findings": []
+    },
+    {
+      "script": "0219",
+      "instructions": 736,
+      "findings": []
+    },
+    {
+      "script": "0220",
+      "instructions": 894,
+      "findings": []
+    },
+    {
+      "script": "0221",
+      "instructions": 1977,
+      "findings": []
+    },
+    {
+      "script": "0222",
+      "instructions": 124,
+      "findings": []
+    },
+    {
+      "script": "0223",
+      "instructions": 102,
+      "findings": []
+    },
+    {
+      "script": "0224",
+      "instructions": 406,
+      "findings": []
+    },
+    {
+      "script": "0225",
+      "instructions": 1802,
+      "findings": []
+    },
+    {
+      "script": "0226",
+      "instructions": 1437,
+      "findings": []
+    },
+    {
+      "script": "0227",
+      "instructions": 459,
+      "findings": []
+    },
+    {
+      "script": "0228",
+      "instructions": 332,
+      "findings": []
+    },
+    {
+      "script": "0229",
+      "instructions": 2013,
+      "findings": []
+    },
+    {
+      "script": "0230",
+      "instructions": 572,
+      "findings": []
+    },
+    {
+      "script": "0231",
+      "instructions": 7610,
+      "findings": []
+    },
+    {
+      "script": "0232",
+      "instructions": 1074,
+      "findings": []
+    },
+    {
+      "script": "0233",
+      "instructions": 132,
+      "findings": []
+    },
+    {
+      "script": "0234",
+      "instructions": 2424,
+      "findings": []
+    },
+    {
+      "script": "0235",
+      "instructions": 1658,
+      "findings": []
+    },
+    {
+      "script": "0236",
+      "instructions": 1229,
+      "findings": []
+    },
+    {
+      "script": "0237",
+      "instructions": 2582,
+      "findings": []
+    },
+    {
+      "script": "0238",
+      "instructions": 268,
+      "findings": []
+    },
+    {
+      "script": "0239",
+      "instructions": 4698,
+      "findings": []
+    },
+    {
+      "script": "0240",
+      "instructions": 2675,
+      "findings": []
+    },
+    {
+      "script": "0241",
+      "instructions": 344,
+      "findings": []
+    },
+    {
+      "script": "0242",
+      "instructions": 712,
+      "findings": []
+    },
+    {
+      "script": "0243",
+      "instructions": 944,
+      "findings": []
+    },
+    {
+      "script": "0244",
+      "instructions": 3078,
+      "findings": []
+    },
+    {
+      "script": "0245",
+      "instructions": 459,
+      "findings": []
+    },
+    {
+      "script": "0246",
+      "instructions": 5483,
+      "findings": []
+    },
+    {
+      "script": "0247",
+      "instructions": 2299,
+      "findings": []
+    },
+    {
+      "script": "0248",
+      "instructions": 1216,
+      "findings": []
+    },
+    {
+      "script": "0249",
+      "instructions": 805,
+      "findings": []
+    },
+    {
+      "script": "0250",
+      "instructions": 586,
+      "findings": []
+    },
+    {
+      "script": "0251",
+      "instructions": 3831,
+      "findings": []
+    },
+    {
+      "script": "0252",
+      "instructions": 2164,
+      "findings": []
+    },
+    {
+      "script": "0253",
+      "instructions": 374,
+      "findings": []
+    },
+    {
+      "script": "0254",
+      "instructions": 1137,
+      "findings": []
+    },
+    {
+      "script": "0255",
+      "instructions": 1054,
+      "findings": []
+    },
+    {
+      "script": "0256",
+      "instructions": 6672,
+      "findings": []
+    },
+    {
+      "script": "0257",
+      "instructions": 2300,
+      "findings": []
+    },
+    {
+      "script": "0258",
+      "instructions": 1072,
+      "findings": []
+    },
+    {
+      "script": "0259",
+      "instructions": 2665,
+      "findings": []
+    },
+    {
+      "script": "0260",
+      "instructions": 2642,
+      "findings": []
+    },
+    {
+      "script": "0261",
+      "instructions": 699,
+      "findings": []
+    },
+    {
+      "script": "0262",
+      "instructions": 1843,
+      "findings": []
+    },
+    {
+      "script": "0263",
+      "instructions": 414,
+      "findings": []
+    },
+    {
+      "script": "0264",
+      "instructions": 119,
+      "findings": []
+    },
+    {
+      "script": "0265",
+      "instructions": 1158,
+      "findings": []
+    },
+    {
+      "script": "0266",
+      "instructions": 1400,
+      "findings": []
+    },
+    {
+      "script": "0267",
+      "instructions": 726,
+      "findings": []
+    },
+    {
+      "script": "0268",
+      "instructions": 2203,
+      "findings": []
+    },
+    {
+      "script": "0269",
+      "instructions": 1496,
+      "findings": []
+    },
+    {
+      "script": "0270",
+      "instructions": 408,
+      "findings": []
+    },
+    {
+      "script": "0271",
+      "instructions": 2265,
+      "findings": []
+    },
+    {
+      "script": "0272",
+      "instructions": 11,
+      "findings": []
+    },
+    {
+      "script": "0273",
+      "instructions": 1752,
+      "findings": []
+    },
+    {
+      "script": "0274",
+      "instructions": 3367,
+      "findings": []
+    },
+    {
+      "script": "0275",
+      "instructions": 3141,
+      "findings": []
+    },
+    {
+      "script": "0276",
+      "instructions": 484,
+      "findings": []
+    },
+    {
+      "script": "0277",
+      "instructions": 111,
+      "findings": []
+    },
+    {
+      "script": "0278",
+      "instructions": 684,
+      "findings": []
+    },
+    {
+      "script": "0279",
+      "instructions": 2238,
+      "findings": []
+    },
+    {
+      "script": "0280",
+      "instructions": 3670,
+      "findings": []
+    },
+    {
+      "script": "0281",
+      "instructions": 5387,
+      "findings": []
+    },
+    {
+      "script": "0282",
+      "instructions": 1043,
+      "findings": []
+    },
+    {
+      "script": "0283",
+      "instructions": 915,
+      "findings": []
+    },
+    {
+      "script": "0284",
+      "instructions": 2579,
+      "findings": []
+    },
+    {
+      "script": "0285",
+      "instructions": 367,
+      "findings": []
+    },
+    {
+      "script": "0286",
+      "instructions": 3450,
+      "findings": []
+    },
+    {
+      "script": "0287",
+      "instructions": 1095,
+      "findings": []
+    },
+    {
+      "script": "0288",
+      "instructions": 1389,
+      "findings": []
+    },
+    {
+      "script": "0289",
+      "instructions": 831,
+      "findings": []
+    },
+    {
+      "script": "0290",
+      "instructions": 11,
+      "findings": []
+    },
+    {
+      "script": "0291",
+      "instructions": 67,
+      "findings": []
+    },
+    {
+      "script": "0292",
+      "instructions": 1029,
+      "findings": []
+    },
+    {
+      "script": "0293",
+      "instructions": 93,
+      "findings": []
+    },
+    {
+      "script": "0294",
+      "instructions": 537,
+      "findings": []
+    },
+    {
+      "script": "0295",
+      "instructions": 1073,
+      "findings": []
+    },
+    {
+      "script": "0296",
+      "instructions": 860,
+      "findings": []
+    },
+    {
+      "script": "0297",
+      "instructions": 822,
+      "findings": []
+    },
+    {
+      "script": "0298",
+      "instructions": 697,
+      "findings": []
+    },
+    {
+      "script": "0299",
+      "instructions": 800,
+      "findings": []
+    },
+    {
+      "script": "0300",
+      "instructions": 567,
+      "findings": []
+    },
+    {
+      "script": "0301",
+      "instructions": 11,
+      "findings": []
+    },
+    {
+      "script": "0302",
+      "instructions": 463,
+      "findings": []
+    },
+    {
+      "script": "0303",
+      "instructions": 90,
+      "findings": []
+    },
+    {
+      "script": "0304",
+      "instructions": 1021,
+      "findings": []
+    },
+    {
+      "script": "0305",
+      "instructions": 991,
+      "findings": []
+    },
+    {
+      "script": "0306",
+      "instructions": 406,
+      "findings": []
+    },
+    {
+      "script": "0307",
+      "instructions": 225,
+      "findings": []
+    },
+    {
+      "script": "0308",
+      "instructions": 200,
+      "findings": []
+    },
+    {
+      "script": "0309",
+      "instructions": 776,
+      "findings": []
+    },
+    {
+      "script": "0310",
+      "instructions": 599,
+      "findings": []
+    },
+    {
+      "script": "0311",
+      "instructions": 212,
+      "findings": []
+    },
+    {
+      "script": "0312",
+      "instructions": 190,
+      "findings": []
+    },
+    {
+      "script": "0313",
+      "instructions": 155,
+      "findings": []
+    },
+    {
+      "script": "0314",
+      "instructions": 333,
+      "findings": []
+    },
+    {
+      "script": "0315",
+      "instructions": 2309,
+      "findings": []
+    },
+    {
+      "script": "0316",
+      "instructions": 784,
+      "findings": []
+    },
+    {
+      "script": "0317",
+      "instructions": 3100,
+      "findings": []
+    },
+    {
+      "script": "0318",
+      "instructions": 3780,
+      "findings": []
+    },
+    {
+      "script": "0319",
+      "instructions": 116,
+      "findings": []
+    },
+    {
+      "script": "0320",
+      "instructions": 4341,
+      "findings": []
+    },
+    {
+      "script": "0321",
+      "instructions": 345,
+      "findings": []
+    },
+    {
+      "script": "0322",
+      "instructions": 163,
+      "findings": []
+    },
+    {
+      "script": "0323",
+      "instructions": 332,
+      "findings": []
+    },
+    {
+      "script": "0324",
+      "instructions": 9650,
+      "findings": []
+    },
+    {
+      "script": "0325",
+      "instructions": 10352,
+      "findings": []
+    },
+    {
+      "script": "0326",
+      "instructions": 1487,
+      "findings": []
+    },
+    {
+      "script": "0327",
+      "instructions": 6365,
+      "findings": []
+    },
+    {
+      "script": "0328",
+      "instructions": 80,
+      "findings": []
+    },
+    {
+      "script": "0329",
+      "instructions": 7418,
+      "findings": []
+    },
+    {
+      "script": "0330",
+      "instructions": 11088,
+      "findings": []
+    },
+    {
+      "script": "0331",
+      "instructions": 139,
+      "findings": []
+    },
+    {
+      "script": "0332",
+      "instructions": 134,
+      "findings": []
+    },
+    {
+      "script": "0333",
+      "instructions": 636,
+      "findings": []
+    },
+    {
+      "script": "0334",
+      "instructions": 9733,
+      "findings": []
+    },
+    {
+      "script": "0335",
+      "instructions": 8305,
+      "findings": []
+    },
+    {
+      "script": "0336",
+      "instructions": 6940,
+      "findings": []
+    },
+    {
+      "script": "0337",
+      "instructions": 6662,
+      "findings": []
+    },
+    {
+      "script": "0338",
+      "instructions": 384,
+      "findings": []
+    },
+    {
+      "script": "0339",
+      "instructions": 898,
+      "findings": []
+    },
+    {
+      "script": "0340",
+      "instructions": 573,
+      "findings": []
+    },
+    {
+      "script": "0341",
+      "instructions": 347,
+      "findings": []
+    },
+    {
+      "script": "0342",
+      "instructions": 11405,
+      "findings": []
+    },
+    {
+      "script": "0343",
+      "instructions": 11,
+      "findings": []
+    },
+    {
+      "script": "0344",
+      "instructions": 6434,
+      "findings": []
+    },
+    {
+      "script": "0345",
+      "instructions": 8307,
+      "findings": []
+    },
+    {
+      "script": "0346",
+      "instructions": 3737,
+      "findings": []
+    },
+    {
+      "script": "0347",
+      "instructions": 4352,
+      "findings": []
+    },
+    {
+      "script": "0348",
+      "instructions": 6,
+      "findings": []
+    },
+    {
+      "script": "0349",
+      "instructions": 12889,
+      "findings": []
+    },
+    {
+      "script": "0350",
+      "instructions": 1,
+      "findings": []
+    },
+    {
+      "script": "0351",
+      "instructions": 1,
+      "findings": []
+    },
+    {
+      "script": "0352",
+      "instructions": 32,
+      "findings": []
+    }
+  ]
+}

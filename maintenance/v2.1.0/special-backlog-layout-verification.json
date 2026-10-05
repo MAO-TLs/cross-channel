@@ -1,0 +1,293 @@
+{
+  "status": "pass",
+  "scope": "shipped backlog layout parser in x86 emulation; no visual or playthrough proof",
+  "executable_sha256": "9e7e948704b9ac8f17801c4f72e69ac902a093ec5bdbf7ea17842951a96725c5",
+  "manuscript_sha256": "f55964041bbcbbd020178fde36227ea1d1689b78e5b33b077dc38efcbcb6fd9b",
+  "function": "0x40df50",
+  "all_special_rows_fit_512_byte_queue_buffer": true,
+  "all_lines_within_60_bytes": true,
+  "line_counts_match_explicit_breaks": true,
+  "records": [
+    {
+      "ref": "ccfc:sn:0023:0000c920:text",
+      "payload_sha256": "d1445cf9a04fdb37d1c74bd6d8c18edc971c11bc1ba6f7cae3a3e03a71c175f1",
+      "payload_bytes": 11,
+      "line_bytes": [
+        11
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:0000ca84:text",
+      "payload_sha256": "5379a947f7d4fb917351c1a132aa86476dde1b389b2069da225eac231d0e1dc9",
+      "payload_bytes": 31,
+      "line_bytes": [
+        31
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:0000cbd8:text",
+      "payload_sha256": "168ffa992489fe711c47e434764c57633b7ee620006a009726233ef6fe51e3e1",
+      "payload_bytes": 19,
+      "line_bytes": [
+        19
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:0000cdf5:text",
+      "payload_sha256": "1e9fc71614c17c3660ffdbf1a39b68a34c36b74ae8540feec4755f5d897dba13",
+      "payload_bytes": 17,
+      "line_bytes": [
+        17
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:0000cfa2:text",
+      "payload_sha256": "c2ace76432cc686cff2df2bac41374a2c2e629649c03fcaec8d30110c782748b",
+      "payload_bytes": 15,
+      "line_bytes": [
+        15
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:0000d06c:text",
+      "payload_sha256": "e4a3e429ade7aa76a8d08db20543977dfd494a08c0d8064682141dd47ad959b2",
+      "payload_bytes": 16,
+      "line_bytes": [
+        16
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:0000dde6:text",
+      "payload_sha256": "2b3fa446a48c8552eff5e15295d1d8c3ddeecfc24813ece6780b8e251ed21d99",
+      "payload_bytes": 22,
+      "line_bytes": [
+        22
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:0000e020:text",
+      "payload_sha256": "f76084a9187632412e6224d9d0225884f7e8529663968e965dd771ff08d1872a",
+      "payload_bytes": 87,
+      "line_bytes": [
+        60,
+        25
+      ],
+      "emulated_line_count": 2
+    },
+    {
+      "ref": "ccfc:sn:0023:0000e19c:text",
+      "payload_sha256": "e9b955e577d817d5fddba24eb8d8bef6bea57d71ee82bd474e5f855458622c3d",
+      "payload_bytes": 8,
+      "line_bytes": [
+        8
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:0000e460:text",
+      "payload_sha256": "982d05ff888c8b0180bb60d6b730712ec882bcf5bf74fadfc701abeae0352284",
+      "payload_bytes": 25,
+      "line_bytes": [
+        25
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:0000e8dd:text",
+      "payload_sha256": "82a74e0a7694aae82e47ba563b3985e2b8bcaee73f4c479f1347a1351e328b0c",
+      "payload_bytes": 53,
+      "line_bytes": [
+        53
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:0000ea74:text",
+      "payload_sha256": "0ab535056ef951e4030116150c7145d709c3538c53c5247703458a101be252c4",
+      "payload_bytes": 59,
+      "line_bytes": [
+        59
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:00010f06:text",
+      "payload_sha256": "3d654c4aa3744eeb786a277b3b4a491a7e453711e65fdbe73c7c0d1cde3bf439",
+      "payload_bytes": 23,
+      "line_bytes": [
+        23
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:00011267:text",
+      "payload_sha256": "a85598b3b89edc1a88a1b4e73380b39d4a87ea8f6681dbd5a475b0e1773cc858",
+      "payload_bytes": 35,
+      "line_bytes": [
+        35
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:000113a6:text",
+      "payload_sha256": "257e0e70137771ae5d2b97c1f207dd9e9831dbfcd9fbd37c088b950d41c4c6ab",
+      "payload_bytes": 29,
+      "line_bytes": [
+        29
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:000115fc:text",
+      "payload_sha256": "a19c74bb0e173f84dc54d10b1121851bde131d8c9ddb4382c95399d508dcc033",
+      "payload_bytes": 12,
+      "line_bytes": [
+        12
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:0001196b:text",
+      "payload_sha256": "b65d03ef47f518b6a5f67fe1070810548a8cdeea5ef5be787c6876ff38999709",
+      "payload_bytes": 12,
+      "line_bytes": [
+        12
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:00011d01:text",
+      "payload_sha256": "cbf9823ac39a1ab4f18337625605c89319a578d6833581b169eafe909c3c09be",
+      "payload_bytes": 12,
+      "line_bytes": [
+        12
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:00011dac:text",
+      "payload_sha256": "cc1b01feebfafdef5a66ca9fd5d9b492b6a51ec14d093279cfaa864480b3c79f",
+      "payload_bytes": 51,
+      "line_bytes": [
+        51
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:00011fad:text",
+      "payload_sha256": "74d8756c84bdd8f36f77e31a554298949b6532d31e35768e633bcf9e9f6cbbca",
+      "payload_bytes": 33,
+      "line_bytes": [
+        33
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:00012307:text",
+      "payload_sha256": "be4c79403d269c62ecf2658e347103265b21a05df073ab1dcc25cb46acf95fe2",
+      "payload_bytes": 79,
+      "line_bytes": [
+        57,
+        20
+      ],
+      "emulated_line_count": 2
+    },
+    {
+      "ref": "ccfc:sn:0023:000125aa:text",
+      "payload_sha256": "3ed860fe69fecd1d381fa6ad1850e8f701f9051e86df5ccf3b6ab649bd697af0",
+      "payload_bytes": 20,
+      "line_bytes": [
+        20
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:0001263d:text",
+      "payload_sha256": "a6e08c2d3c0b5a9010da6ae5ad92db58f92aa5d4589268384e26b3b6fa02dbae",
+      "payload_bytes": 40,
+      "line_bytes": [
+        40
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:00012831:text",
+      "payload_sha256": "bfe9f00a708a9686b8469ea2bd5f7042b530a755e262920b6170c28149b2d4f2",
+      "payload_bytes": 49,
+      "line_bytes": [
+        49
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:000128e0:text",
+      "payload_sha256": "9e4bbea8e0be56b3c578584f5774fe9a0ecc5469783c7574768501b752899e08",
+      "payload_bytes": 49,
+      "line_bytes": [
+        49
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:00012ab0:text",
+      "payload_sha256": "f0ed96f130b63eb14a1a3c99dc9aace319ae113f097b4716b1745ded2abbd345",
+      "payload_bytes": 29,
+      "line_bytes": [
+        29
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:00012b2d:text",
+      "payload_sha256": "7bd317e090460dd775d82f76b0bc767163a81836a0e7ab7b025d6d2eb5cc6ba7",
+      "payload_bytes": 37,
+      "line_bytes": [
+        37
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:00012bae:text",
+      "payload_sha256": "801fd0c980f895ab7cb3b6aad021828840cd3fc45c419167bdc237d6e47f3308",
+      "payload_bytes": 16,
+      "line_bytes": [
+        16
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:00013708:text",
+      "payload_sha256": "fe8ad8b348026cb6acb9dcf6f796c69cc3f43a1843368dfed0889bb51520e71a",
+      "payload_bytes": 9,
+      "line_bytes": [
+        9
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:00013ea8:text",
+      "payload_sha256": "54eee1d60f460aa048bb533e612b3b2af3735c970e06c74586b6076e06c0c079",
+      "payload_bytes": 23,
+      "line_bytes": [
+        23
+      ],
+      "emulated_line_count": 1
+    },
+    {
+      "ref": "ccfc:sn:0023:00013f83:text",
+      "payload_sha256": "4452c0007c23ab5e10dc21ccee0c811e75cfdb0d14181b7e5ff192f193a385ca",
+      "payload_bytes": 37,
+      "line_bytes": [
+        37
+      ],
+      "emulated_line_count": 1
+    }
+  ]
+}

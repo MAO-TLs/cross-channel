@@ -1,0 +1,37 @@
+{
+  "schema": "mao-cross-channel-final-complete-roundtrip-receipt/1",
+  "status": "complete",
+  "archive": {
+    "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/cross-channel-retranslation/runs/wordplay_context_2026_10_06/runtime-v210/sn.bin-entry-repaired",
+    "bytes": 6796979,
+    "sha256": "18f444d2c5d96230ecf3720d7b134632641cfdd44c92c0c895a73d0022582912"
+  },
+  "counts": {
+    "scripts": 353,
+    "structural_yaml_files": 354,
+    "translations": 54394,
+    "speaker_label_occurrences": 29001,
+    "payloads": 83395,
+    "max_projected_payload_bytes": 212,
+    "by_kind": {
+      "choice": 472,
+      "speaker": 29001,
+      "text": 53922
+    }
+  },
+  "hashes": {
+    "projected_script_tree_sha256": "95b8f96de01ae97c8d2abf838d85427f7023acc10bc3d075575931fe3d04bf1b",
+    "decoded_script_tree_sha256": "6f411ed497651456289e1d90064e8f6ec66e911f5fd3e2a82ed330d2b46d23bc",
+    "decoded_yaml_tree_sha256": "06caceac07d77f0142fcd4d95d1ed069b1d1b6d6c0a1644cccebebe42a894919"
+  },
+  "checks": {
+    "ordered_payloads_equal_after_engine_encoding_normalization": true,
+    "numeric_reference_fallback_absent": true,
+    "decoded_translation_slots_empty": true,
+    "script_inventory_exact": true,
+    "structural_inventory_complete": true,
+    "unescaped_italic_markup_absent": true,
+    "custom_italic_remap_absent": true,
+    "projected_payload_bytes_within_1023": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "built_and_installer_verified",
+  "version": "2.1.0",
+  "manuscript_sha256": "f55964041bbcbbd020178fde36227ea1d1689b78e5b33b077dc38efcbcb6fd9b",
+  "archive_sha256": "7bb6d5148b9af449d15e26ba0a699d1e9e7b9301d0fd02cb2c0aac398c0a4907",
+  "archive_bytes": 13850134,
+  "target_sn_sha256": "18f444d2c5d96230ecf3720d7b134632641cfdd44c92c0c895a73d0022582912",
+  "manifest_sha256": "ba36d6c7e05396cd416ef73d91d08ce4e19166bd7bd7a7769830830b836a3307",
+  "package_test_receipt_sha256": "d6fb693d100ed5fa24d1adcf1148170ddfd2012ab82b059cd47680d6eee10c13"
+}

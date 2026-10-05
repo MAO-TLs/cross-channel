@@ -1,0 +1,18 @@
+{
+  "version": "2.1.0",
+  "status": "editorial_frozen",
+  "source_sha256": "c4c059d1b631a4adbd0c06abb5dbff6a2f21b140cea3deb258a1890e26269a04",
+  "baseline_sha256": "56074807fa49a65d2125cf6c1c8fd76e96d14d8221bddfe254790731b80a77d3",
+  "manuscript_sha256": "f55964041bbcbbd020178fde36227ea1d1689b78e5b33b077dc38efcbcb6fd9b",
+  "rows": 54316,
+  "changed_rows": 92,
+  "eligible_candidates_reviewed": 1469,
+  "excluded_candidates": 598,
+  "all_other_rows_unchanged": true,
+  "excluded_rows_unchanged": true,
+  "changed_exchanges_bilingually_reread": true,
+  "changed_english_reread_in_context": true,
+  "supplemental_marker_search_reviewed": true,
+  "dumpling_story_setup_and_payoff_reread": true,
+  "scope": "Contextual wordplay review of the candidate inventory, with supplemental marker scan; not a claim that every possible pun has been identified."
+}
