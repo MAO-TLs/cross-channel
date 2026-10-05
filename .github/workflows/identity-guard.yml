@@ -10,7 +10,7 @@ permissions:
 jobs:
   identity:
     name: MAO identity
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     steps:
       - name: Check out the exact proposed commit
         uses: actions/checkout@v4
