@@ -1,4 +1,4 @@
-# CROSS†CHANNEL English translation v1.1.4
+# CROSS†CHANNEL English translation v2.0.0
 
 MAO Translations publishes the *CROSS†CHANNEL ～FINAL COMPLETE～*
 Japanese and MAO English script alongside two independent research editions:
@@ -21,14 +21,14 @@ blocks contain 847 recorded findings.
 
 ## English patch
 
-Download [v1.1.4](https://github.com/MAO-TLs/cross-channel/releases/tag/v1.1.4) and follow the included README. It requires an unmodified Final Complete 1.0 installation and Python 3. This release revises 25 English lines across 12 scripts after a complete wordplay-candidate review. It retains all 3,374 restored lines and the branch and entry-point repairs associated with issues #5–#7.
+Download [v2.0.0](https://github.com/MAO-TLs/cross-channel/releases/tag/v2.0.0) and follow the included README. This is the GPT-6.1 Sol literary pass: 40,701 eligible lines reviewed and 10,670 revised for natural English, character voice, wordplay, and recurring lines. The other 13,615 lines retain their previous translations unchanged. All 54,316 rows are present in the patch and reader, with the progression repairs retained.
 
-The rebuilt archive passed source-binding, exact revised-text roundtrip, decode, instruction-shape, entry-target, and unaffected-payload checks. The v1.1.2 control-flow repair separately exercised all 1,135 corrected branches using the shipped game's machine code in an x86 emulator. Actual scene replay and a full playthrough remain unverified. See [v1.1.4 validation](maintenance/v1.1.4/).
+The rebuilt archive passed full text round-trip, instruction, mapped-branch, and entry-point checks. All 31 special-text backlog records passed the shipped line parser in CPU emulation. These checks do not establish visual acceptance or a full in-game playthrough. See [v2.0.0 validation](maintenance/v2.0.0/).
 
-Allow at least 5 GB free disk space and 8 GB RAM. If upgrading, restore the original game with your previous patch installer before installing this package; keep the old installer and backup until restoration succeeds. Save data is untouched. The [v1.1.4 manuscript](https://github.com/MAO-TLs/cross-channel/releases/download/v1.1.4/CROSS-CHANNEL-English-Script-v1.1.4.jsonl) matches the online script.
+Requires an unmodified Japanese Final Complete 1.0 installation and Python 3. Allow at least 5 GB free disk space and 8 GB RAM. If upgrading, restore the original game with your previous patch installer before installing this package. Save data is untouched. The [v2.0.0 manuscript](https://github.com/MAO-TLs/cross-channel/releases/download/v2.0.0/CROSS-CHANNEL-English-Script-v2.0.0.jsonl) matches the online script.
 
 ## Credits
 
 - Project Lead: MAO
-- Translator: GPT-5.6 Sol
+- Translator: GPT-6.1 Sol
 - Special Thanks: gambs

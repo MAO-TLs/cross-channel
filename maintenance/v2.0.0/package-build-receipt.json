@@ -1,0 +1,8 @@
+{
+  "status": "release candidate; final package installer checks pending",
+  "archive_sha256": "a3a43d98a63612049cc4a5d393d1c4e05c1bc71c8b6ddf5808b75e62dfaeb92e",
+  "archive_bytes": 13849367,
+  "target_sn_sha256": "51e2d2fee490eb39fdc2612853cc1feb7fb9dc773339b7862ed3a21e7c15d30a",
+  "manuscript_sha256": "8671dc873c6f27779bff992796fe14838ca2cecc6df1e157e80948fec0719b05",
+  "manifest_sha256": "c5eaf3b35466b64e55f5e2eb9f82ae2c698cf9606d9021c682e2bdb1b3ccbea5"
+}

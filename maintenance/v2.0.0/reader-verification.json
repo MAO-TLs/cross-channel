@@ -1,0 +1,9 @@
+{
+  "status": "staged locally; not published",
+  "rows": 54316,
+  "changed_rows": 10670,
+  "source_identity_and_japanese_exact": true,
+  "reader_english_matches_frozen_manuscript": true,
+  "baseline_preimages_verified": true,
+  "manuscript_sha256": "8671dc873c6f27779bff992796fe14838ca2cecc6df1e157e80948fec0719b05"
+}
