@@ -126,7 +126,7 @@
     note.append(el("p", "todokanai-error-explanation", item.assessment || item.remedy || "Open the audit for details."));
     const actions = el("div", "todokanai-error-actions"), context = el("a", "", "Open this line in context →"), audit = el("a", "", "Open audit →");
     context.href = `?script=${encodeURIComponent(row.scriptId || index.scripts[state.script].id)}&compare=ghs&errors=ghs#${encodeURIComponent(row.ref)}`;
-    audit.href = "../audit/";
+    audit.href = "../audit-ghs/";
     actions.append(context, audit); note.append(actions);
     paragraphNode.after(note);
     trigger.setAttribute("aria-expanded", "true");
@@ -318,10 +318,26 @@
     $("scriptSelect").value = String(state.script);
   }
 
-  async function renderScript(targetRef = "") {
+  function updateUrl(targetRef = "", historyMode = "replace") {
+    const url = new URL(window.location.href);
+    url.searchParams.set("script", index.scripts[state.script].id);
+    if (state.scope === "corpus") url.searchParams.set("scope", "all");
+    else url.searchParams.delete("scope");
+    const query = $("searchInput").value.trim();
+    if (query) url.searchParams.set("q", query); else url.searchParams.delete("q");
+    if (state.showShaft) url.searchParams.set("compare", "ghs"); else url.searchParams.delete("compare");
+    if (state.showShaft && state.showErrors) url.searchParams.set("errors", "ghs"); else url.searchParams.delete("errors");
+    url.hash = targetRef;
+    history[historyMode === "push" ? "pushState" : "replaceState"](null, "", url);
+  }
+
+  async function renderScript(targetRef = "", historyMode = "replace") {
     if (state.scope !== "script") return;
+    const position = state.script;
+    updateUrl(targetRef, historyMode);
     updateComparisonControls();
     const data = await loadScript(state.script);
+    if (state.scope !== "script" || state.script !== position) return;
     const query = $("searchInput").value.trim();
     const units = visibleScriptUnits(data.rows, query);
     const rows = units.flatMap((unit) => unit.rows);
@@ -364,6 +380,7 @@
 
   async function renderCorpus() {
     if (state.scope !== "corpus") return;
+    updateUrl();
     const query = $("searchInput").value.trim();
     $("corpusResults").replaceChildren();
     if (query.length < 2) {
@@ -373,6 +390,7 @@
       return;
     }
     const all = await loadCorpus();
+    if (state.scope !== "corpus" || $("searchInput").value.trim() !== query) return;
     const hits = all.filter((item) => corpusHitMatches(item, query));
     const visible = hits.slice(0, corpusLimit);
     $("corpusPrompt").hidden = true;
@@ -388,14 +406,11 @@
         el("strong", "", "Open in script →"),
       );
       button.addEventListener("click", () => {
+        clearTimeout(searchTimer);
+        updateUrl();
         state.script = hit.scriptPosition;
-        state.scope = "script";
-        $("scopeCurrent").checked = true;
-        $("scopeAll").checked = false;
         $("searchInput").value = "";
-        $("currentScriptView").hidden = false;
-        $("corpusView").hidden = true;
-        renderScript(hit.row.ref);
+        setScope("script", hit.row.ref, "push");
       });
       const grid = el("div", state.showShaft ? "concordance-hit-grid comparison-grid" : "concordance-hit-grid");
       const ja = el("div", "line-cell line-ja");
@@ -422,24 +437,41 @@
     $("showMoreCount").textContent = `${visible.length.toLocaleString()} of ${hits.length.toLocaleString()}`;
   }
 
-  async function render() {
+  async function render(targetRef = "", historyMode = "replace") {
     try {
-      if (state.scope === "script") await renderScript();
+      if (state.scope === "script") await renderScript(targetRef, historyMode);
       else await renderCorpus();
     } catch (error) {
       $("searchSummary").textContent = error.message;
     }
   }
 
-  function setScope(scope) {
+  function setScope(scope, targetRef = "", historyMode = "replace") {
     state.scope = scope;
+    $("scopeCurrent").checked = $("scopeCurrent").defaultChecked = scope === "script";
+    $("scopeAll").checked = $("scopeAll").defaultChecked = scope === "corpus";
     corpusLimit = 100;
     $("searchLabel").textContent = "Search";
     $("currentScriptView").hidden = scope !== "script";
     $("corpusView").hidden = scope !== "corpus";
     updateComparisonControls();
     updateNavigation();
-    render();
+    return render(targetRef, historyMode);
+  }
+
+  async function restoreLocation() {
+    if (!index) return;
+    clearTimeout(searchTimer);
+    const url = new URL(window.location.href);
+    const position = index.scripts.findIndex(item => item.id === url.searchParams.get("script"));
+    if (position >= 0) state.script = position;
+    state.showShaft = url.searchParams.get("compare") === "ghs";
+    state.showErrors = state.showShaft && url.searchParams.get("errors") === "ghs";
+    $("showGeorgeHenryShaftErrors").checked = state.showErrors;
+    let targetRef = "";
+    try { targetRef = decodeURIComponent(url.hash.slice(1)); } catch { /* Invalid hashes are not passage references. */ }
+    $("searchInput").value = targetRef ? "" : url.searchParams.get("q") || "";
+    await setScope(!targetRef && url.searchParams.get("scope") === "all" ? "corpus" : "script", targetRef);
   }
 
   async function initialize() {
@@ -450,16 +482,7 @@
         option.value = String(position);
         $("scriptSelect").append(option);
       });
-      const url = new URL(window.location.href);
-      const requestedScript = url.searchParams.get("script");
-      const requestedPosition = index.scripts.findIndex((item) => item.id === requestedScript);
-      if (requestedPosition >= 0) state.script = requestedPosition;
-      state.showShaft = url.searchParams.get("compare") === "ghs";
-      state.showErrors = state.showShaft && url.searchParams.get("errors") === "ghs";
-      updateComparisonControls();
-      $("showGeorgeHenryShaftErrors").checked = state.showErrors;
-      const targetRef = decodeURIComponent(window.location.hash.slice(1));
-      await renderScript(targetRef);
+      await restoreLocation();
     } catch (error) {
       $("browserHeading").classList.remove("sr-only");
       $("browserHeading").textContent = error.message;
@@ -487,5 +510,7 @@
     render();
   });
   $("showMore").addEventListener("click", () => { corpusLimit += 100; renderCorpus(); });
+  window.addEventListener("popstate", restoreLocation);
+  window.addEventListener("hashchange", restoreLocation);
   initialize();
 })();

@@ -28,5 +28,6 @@ test('GHS audit and monograph retain distinct navigation and routes', () => {
   assert.ok(home.includes('Audit (On Cross Channel)'));
   assert.ok(home.includes('audit-ghs/'));
   assert.ok(home.includes('audit-on-cross-channel/'));
+  assert.ok(read('assets/script-reader.js').includes('audit.href = "../audit-ghs/"'));
 });
 
