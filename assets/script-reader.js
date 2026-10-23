@@ -1,3 +1,4 @@
+import { matchesReaderText } from './reader-search.mjs';
 (() => {
   "use strict";
 
@@ -31,7 +32,7 @@
       row.jp, row.en, row.speakerJa, row.speakerEn, row.ref,
       ...(row.ghs || []).map((item) => item.en),
     ].join("\u0000"));
-    return haystack.includes(needle) || (isJapanese(needle) && compact(haystack).includes(compact(needle)));
+    return matchesReaderText(haystack, needle);
   }
 
   function corpusHitMatches(item, query) {

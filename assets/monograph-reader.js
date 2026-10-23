@@ -1,3 +1,4 @@
+import { matchesReaderText } from './reader-search.mjs';
 (() => {
   "use strict";
 
@@ -96,11 +97,11 @@
 
   function matches(block, query) {
     if (!query) return true;
-    return normalize([
+    return matchesReaderText([
       block.text,
       ...block.sectionPath.map((item) => item.title),
       ...block.findings.flatMap((finding) => [finding.claim, finding.assessment, finding.minimum, ...finding.categories]),
-    ].join("\u0000")).includes(query);
+    ].join("\u0000"), query);
   }
 
   function filteredBlocks() {

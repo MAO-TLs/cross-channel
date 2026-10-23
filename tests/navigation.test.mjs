@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
+import {matchesReaderText} from '../assets/reader-search.mjs';
 
 test('CROSS CHANNEL context navigation preserves search, comparisons and Forward target', async () => {
   const nodes = new Map(), handlers = new Map(), storage = new Map();
@@ -35,8 +36,8 @@ test('CROSS CHANNEL context navigation preserves search, comparisons and Forward
   const row={ref:'cc:test:1',row:1,jp:'町',en:'A town.',ghs:[]};
   const window={location, addEventListener:(name,fn)=>handlers.set(name,fn)};
   const fetch=async url=>({ok:true,json:async()=>url.endsWith('index.json')?{scripts:[{id:'0000',path:'data/script/0000.json',rows:1,comparisons:1}]}:{script:'0000',rows:[row]}});
-  vm.runInNewContext(readFileSync(new URL('../assets/script-reader.js',import.meta.url),'utf8'), {
-    window,document,history,URL,Map,Set,console,fetch,
+  vm.runInNewContext(readFileSync(new URL('../assets/script-reader.js',import.meta.url),'utf8').replace(/^import .*;\n/, ''), {
+    window,document,history,URL,Map,Set,console,fetch,matchesReaderText,
     localStorage:{getItem:key=>storage.get(key),setItem:(key,value)=>storage.set(key,value)},
     requestAnimationFrame:fn=>fn(),setTimeout,clearTimeout,
   });
