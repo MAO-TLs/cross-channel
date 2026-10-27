@@ -405,3 +405,11 @@ footer { padding-block: 48px; color: rgba(255,255,255,.6); background: #071729; 
 @media (max-width: 640px) {
   .hero h1 { font-size: clamp(44px, 14vw, 82px); }
 }
+
+/* Blur only the artwork, fading continuously through the upper quarter. */
+.hero-backdrop-soft {
+  filter: saturate(.88) contrast(1.04) blur(14px);
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(to bottom, #000, rgba(0,0,0,.75) 6%, rgba(0,0,0,.35) 13%, rgba(0,0,0,.08) 20%, transparent 25%);
+  mask-image: linear-gradient(to bottom, #000, rgba(0,0,0,.75) 6%, rgba(0,0,0,.35) 13%, rgba(0,0,0,.08) 20%, transparent 25%);
+}
